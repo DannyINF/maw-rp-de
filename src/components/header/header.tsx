@@ -22,23 +22,38 @@ const Header = () => {
 			<nav className={styles.nav}>
 				<ul>
 					<li>
+						<a href="#fraktionen" className={styles.link}>
+							Fraktionen
+						</a>
+					</li>
+					<li>
+						<a href="#features" className={styles.link}>
+							Features
+						</a>
+					</li>
+					<li>
 						<a href="#geschichte" className={styles.link}>
 							Geschichte
 						</a>
 					</li>
 					<li>
-						<a href="#regeln" className={styles.link}>
-							Regeln
+						<a
+							href="https://hdr-rp.vyhub.app/shop"
+							target="_blank"
+							rel="noreferrer"
+							className={styles.link}
+						>
+							Shop
 						</a>
 					</li>
 					<li>
-						<a href="#rassen" className={styles.link}>
-							Rassen
-						</a>
-					</li>
-					<li>
-						<a href="#fraktionen" className={styles.link}>
-							Fraktionen
+						<a
+							href="https://forum.mythenauswesternis.de/"
+							target="_blank"
+							rel="noreferrer"
+							className={styles.link}
+						>
+							Forum
 						</a>
 					</li>
 					<li>
