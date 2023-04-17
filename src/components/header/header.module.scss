@@ -24,6 +24,11 @@ $font-weight-extrabold: 800;
     margin-right: 1rem;
 }
 
+.logo img {
+    float: left;
+    margin-right: 0;
+}
+
 .link {
     font-family: var(--font-family);
     color: var(--text-dark);
@@ -35,6 +40,22 @@ $font-weight-extrabold: 800;
     &:hover {
         color: var(--text-light);
         background-color: var(--accent-color-primary);
+        text-decoration: none;
+    }
+}
+
+.linkMarked {
+    font-family: var(--font-family);
+    color: var(--text-light);
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    transition: all 0.3s;
+    background-color: var(--bg-dark);
+
+    &:hover {
+        color: var(--text-light);
+        background-color: var(--accent-color-secondary);
         text-decoration: none;
     }
 }
