@@ -10,7 +10,7 @@ const Header = () => {
 			<div className={styles.logo}>
 				<Image
 					src="/assets/images/logo-white.png"
-					alt="logo"
+					alt="mythen aus westernis logo"
 					className={styles.logo}
 					width={45}
 					height={45}
