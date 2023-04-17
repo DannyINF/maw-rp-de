@@ -7,17 +7,21 @@
     justify-content: space-between;
     align-items: center;
     background-color: transparent;
-    padding: 1rem 2rem;
     z-index: 1000;
-    background-color: var(--bg-light);
+    background-color: var(--bg-dark);
+    min-height: 4.4rem;
+    padding-left: 2rem;
+    font-size: var(--font-size-large-text);
 }
 
 .logo {
     font-family: var(--font-family);
     font-size: 1.5rem;
     font-weight: var(--font-weight-extrabold);
-    color: var(--text-dark);
+    color: var(--text-light);
     margin-right: 1rem;
+    display: flex;
+    align-items: center;
 }
 
 .logo img {
@@ -27,11 +31,21 @@
 
 .link {
     font-family: var(--font-family);
-    color: var(--text-dark);
+    color: var(--text-light);
     text-decoration: none;
-    padding: 0.5rem 1rem;
-    border-radius: 5px;
+    padding: 0 1.5rem;
     transition: all 0.3s;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    font-weight: var(--font-weight-bold);
+    margin-top: -0.05rem;
+    padding-bottom: 0.05rem;
+
+    //mobile
+    @media (max-width: 1024px) {
+        display: none;
+    }
 
     &:hover {
         color: var(--text-light);
@@ -40,27 +54,63 @@
     }
 }
 
+.logoLink {
+    font-family: var(--font-family);
+    color: var(--text-light);
+    text-decoration: none;
+    padding: 0 1.5rem;
+    transition: all 0.3s;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    font-weight: var(--font-weight-bold);
+    margin-top: -0.05rem;
+    padding-bottom: 0.05rem;
+    padding-right: 0;
+}
+
 .linkMarked {
     font-family: var(--font-family);
     color: var(--text-light);
     text-decoration: none;
-    padding: 0.5rem 1rem;
-    border-radius: 5px;
+    padding: 0 1.5rem;
     transition: all 0.3s;
-    background-color: var(--bg-dark);
+    background-color: var(--accent-color-secondary);
+    height: 100%;
+    display: flex;
+    align-items: center;
+    font-weight: var(--font-weight-bold);
+    margin-top: -0.05rem;
+    padding-bottom: 0.05rem;
+
 
     &:hover {
         color: var(--text-light);
-        background-color: var(--accent-color-secondary);
+        background-color: var(--accent-color-secondary-highlight);
         text-decoration: none;
     }
 }
 
-.nav ul {
-    display: flex;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    gap: 1rem;
-    flex-wrap: wrap;
+.nav {
+    min-height: 4.4rem;
+    ul {
+        display: flex;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        flex-wrap: nowrap;
+        min-height: 4.4rem;
+
+        li {
+            //mobile
+            @media (max-width: 1024px) {
+                flex-basis: 100%;
+
+                //hide all but last child
+                &:not(:last-child) {
+                    display: none;
+                }
+            }
+        }
+    }
 }

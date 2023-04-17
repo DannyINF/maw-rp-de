@@ -9,6 +9,7 @@ const Hero = () => {
 				blur={{ min: 5, max: 5 }}
 				bgImage="/assets/images/hero-bg1.jpg"
 				bgImageAlt="background"
+				bgClassName={styles.bgImage}
 				strength={200}
 			>
 				<div className={styles.hero}>

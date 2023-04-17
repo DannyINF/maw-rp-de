@@ -8,6 +8,11 @@
     font-family: var(--font-family);
     text-align: center;
     padding: 0 20px;
+    background-color: #21212130;
+}
+
+.bgImage {
+    width: 110% !important;
 }
 
 .headline {
@@ -18,4 +23,5 @@
 
 .subheadline {
     font-size: 2rem;
+    background-color: transparent;
 }

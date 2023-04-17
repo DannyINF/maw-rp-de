@@ -3,9 +3,12 @@
     --bg-light: #F5F5F5;
     --text-dark: #373737;
     --text-light: #FFFFFF;
-    --accent-color-primary: #D8AA2C;
-    --accent-color-secondary: #4f1c0f;
+    --accent-color-primary: #B4902D;
+    --accent-color-secondary: #682919;
+    --accent-color-secondary-highlight: #9c3e26;
+    --font-size-large-text: 1.3rem;
     --font-family: 'proxima-nova', sans-serif;
+    --font-weight-bold: 700;
     --font-weight-extrabold: 800;
     --bg-dark: #212121;
 }
@@ -20,4 +23,5 @@ body {
     font-family: var(--font-family);
     margin: 0;
     padding: 0;
+    margin-top: 4rem
 }
