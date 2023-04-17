@@ -57,7 +57,12 @@ const Header = () => {
 						</a>
 					</li>
 					<li>
-						<a href="#beitreten" className={styles.linkMarked}>
+						<a
+							href="steam://connect/84.200.229.44:27020"
+							target="_blank"
+							rel="noreferrer"
+							className={styles.linkMarked}
+						>
 							Beitreten
 						</a>
 					</li>
