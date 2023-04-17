@@ -40,7 +40,6 @@ const Header = () => {
 						<a
 							href="https://hdr-rp.vyhub.app/shop"
 							target="_blank"
-							rel="noreferrer"
 							className={styles.link}
 						>
 							Shop
@@ -50,7 +49,6 @@ const Header = () => {
 						<a
 							href="https://forum.mythenauswesternis.de/"
 							target="_blank"
-							rel="noreferrer"
 							className={styles.link}
 						>
 							Forum
@@ -60,7 +58,6 @@ const Header = () => {
 						<a
 							href="steam://connect/84.200.229.44:27020"
 							target="_blank"
-							rel="noreferrer"
 							className={styles.linkMarked}
 						>
 							Beitreten
