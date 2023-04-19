@@ -1,8 +1,26 @@
 import Head from 'next/head';
 import Header from '@/components/header/header';
 import Hero from '@/components/hero/hero';
+import React from 'react';
 
 export default function Home() {
+	React.useEffect(() => {
+		document.body.style.marginTop =
+			document.getElementById('header')?.clientHeight + 'px';
+
+		window.addEventListener('resize', () => {
+			document.body.style.marginTop =
+				document.getElementById('header')?.clientHeight + 'px';
+		});
+
+		return () => {
+			window.removeEventListener('resize', () => {
+				document.body.style.marginTop =
+					document.getElementById('header')?.clientHeight + 'px';
+			});
+		};
+	}, []);
+
 	return (
 		<>
 			<Head>
