@@ -2,6 +2,8 @@ import Head from 'next/head';
 import Header from '@/components/header/header';
 import Hero from '@/components/hero/hero';
 import React from 'react';
+import Factions from '@/components/factions/factions';
+import { factionList } from '@/content/factionList';
 
 export default function Home() {
 	React.useEffect(() => {
@@ -42,6 +44,7 @@ export default function Home() {
 			<main>
 				<Header />
 				<Hero />
+				<Factions factions={factionList} />
 			</main>
 		</>
 	);
