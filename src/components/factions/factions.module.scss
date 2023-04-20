@@ -55,14 +55,6 @@
 				.specialRanksHeading {
 					text-align: left;
 				}
-
-				ul {
-					justify-content: left;
-
-					@media (max-width: 1400px) {
-						justify-content: center;
-					}
-				}
 			}
 		}
 
@@ -113,14 +105,13 @@
 				padding: 0;
 				display: flex;
 				gap: 1rem;
-				justify-content: right;
+				justify-content: center;
 				margin-bottom: 0;
 				flex-wrap: nowrap;
 
 				//on xl
 				@media (max-width: 1400px) {
 					flex-wrap: wrap;
-					justify-content: center;
 				}
 
 				.specialRank {
