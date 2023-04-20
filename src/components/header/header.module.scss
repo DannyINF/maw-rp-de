@@ -10,7 +10,7 @@
     z-index: 1000;
     background-color: var(--bg-dark);
     min-height: 4.4rem;
-    padding-left: 2rem;
+    padding-left: var(--spacing-large);
     font-size: var(--font-size-large-text);
 
     @media (max-width: 576px) {
@@ -25,7 +25,7 @@
     font-size: 1.5rem;
     font-weight: var(--font-weight-extrabold);
     color: var(--text-light);
-    margin-right: 1rem;
+    margin-right: var(--spacing-medium);
     display: flex;
     align-items: center;
 

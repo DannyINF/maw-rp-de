@@ -1,5 +1,7 @@
 
 :root {
+    //colors
+
     --bg-light: #F5F5F5;
     --text-dark: #373737;
     --text-light: #FFFFFF;
@@ -7,11 +9,21 @@
     --accent-color-primary-highlight: #B4902D;
     --accent-color-secondary: #682919;
     --accent-color-secondary-highlight: #9c3e26;
-    --font-size-large-text: 1.3rem;
-    --font-family: 'proxima-nova', sans-serif;
-    --font-weight-bold: 700;
-    --font-weight-extrabold: 800;
     --bg-dark: #212121;
+
+    //fonts
+    --font-family: 'proxima-nova', sans-serif;
+    --font-size-large-text: 1.3rem;
+    --font-weight-bold: 700;
+    --font-size-large-text: 1.3rem;
+    --font-weight-extrabold: 800;
+
+    //spacing
+    --spacing-small: 0.5rem;
+    --spacing-medium: 1rem;
+    --spacing-large: 2rem;
+    --spacing-xlarge: 3rem;
+    --spacing-xxlarge: 4rem;
 }
 
 html {
@@ -19,7 +31,7 @@ html {
 }
 
 body {
-    background-color: var(--bg-light);
+    background-color: var(--bg-dark);
     color: var(--text-dark);
     font-family: var(--font-family);
     margin: 0;
