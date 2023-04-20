@@ -1,6 +1,6 @@
 .factions {
 	padding: var(--spacing-xlarge);
-	margin: 0 15%;
+	margin: 0 10%;
 	background-color: var(--bg-dark);
 	color: var(--text-light);
 	padding-top: var(--spacing-medium);
@@ -30,7 +30,6 @@
 		flex-direction: row;
 		align-items: center;
 		margin-bottom: var(--spacing-xxlarge);
-		flex-wrap: wrap;
 		width: fit-content;
 
 		&:nth-child(even) {
@@ -70,14 +69,16 @@
 		.image {
 			flex: 1;
 			text-align: center;
+			margin-left: var(--spacing-large);
 
 			//on tablet
 			@media (max-width: 1400px) {
-				flex-basis: 100%;
+				display: none;
 			}
 
 			img {
-				height: 60vh;
+				width: 100%;
+				max-width: 500px;
 			}
 		}
 
@@ -137,8 +138,12 @@
 					padding: var(--spacing-medium);
 					border-radius: 10px;
 					min-height: 100px;
-					width: max-content;
 					text-align: center;
+					width: max-content;
+
+					@media (max-width: 1400px) {
+						width: unset;
+					}
 
 					svg {
 						margin: 0 auto;
