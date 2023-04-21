@@ -23,6 +23,10 @@
 		font-size: 3.5rem;
 		text-align: center;
 		margin-bottom: var(--spacing-xlarge);
+
+		@media (max-width: 768px) {
+			font-size: 2.5rem;
+		}
 	}
 
 	.faction {
@@ -37,6 +41,10 @@
 
 			.name {
 				text-align: right;
+
+				@media (max-width: 768px) {
+					text-align: center;
+				}
 			}
 
 			.description {
@@ -87,6 +95,11 @@
 			color: var(--accent-color-primary-light);
 			margin-bottom: var(--spacing-medium);
 			text-align: right;
+
+			@media (max-width: 768px) {
+				font-size: 1.6rem;
+				text-align: left;
+			}
 		}
 
 		.specialRanks {
@@ -98,6 +111,11 @@
 				margin-bottom: var(--spacing-large);
 				margin-top: 0;
 				text-align: right;
+
+				@media (max-width: 768px) {
+					font-size: 1.6rem;
+					text-align: left;
+				}
 			}
 
 			ul {
@@ -136,6 +154,11 @@
 						width: unset;
 					}
 
+					@media (max-width: 768px) {
+						width: 100%;
+						font-size: 1.4rem;
+					}
+
 					svg {
 						margin: 0 auto;
 						margin-bottom: var(--spacing-small);
@@ -154,6 +177,11 @@
 			color: var(--accent-color-primary-light);
 			margin-bottom: var(--spacing-medium);
 			margin-top: 0;
+
+			@media (max-width: 768px) {
+				text-align: center;
+				font-size: 2.5rem;
+			}
 		}
 
 		.description {
@@ -162,6 +190,11 @@
 			color: var(--text-light);
 			margin-bottom: var(--spacing-large);
 			text-align: right;
+
+			@media (max-width: 768px) {
+				font-size: 1.5rem;
+				text-align: left;
+			}
 		}
 	}
 }
