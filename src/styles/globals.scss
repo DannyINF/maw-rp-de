@@ -12,7 +12,7 @@
 	--bg-black: #00000042;
 
 	//fonts
-	--font-family: 'proxima-nova', sans-serif;
+	--font-family: 'Proxima Nova', sans-serif;
 	--font-size-large-text: 1.3rem;
 	--font-weight-bold: 700;
 	--font-size-large-text: 1.3rem;
@@ -24,6 +24,27 @@
 	--spacing-large: 2rem;
 	--spacing-xlarge: 3rem;
 	--spacing-xxlarge: 4rem;
+}
+
+@font-face {
+	font-family: 'Proxima Nova';
+	src: url('/assets/fonts/ProximaNova-Bold.woff2') format('woff2');
+	font-display: swap;
+	font-weight: 600;
+}
+
+@font-face {
+	font-family: 'Proxima Nova';
+	src: url('/assets/fonts/ProximaNova-Extrabold.woff2') format('woff2');
+	font-display: swap;
+	font-weight: 800;
+}
+
+@font-face {
+	font-family: 'Proxima Nova';
+	src: url('/assets/fonts/ProximaNova-Regular.woff2') format('woff2');
+	font-display: swap;
+	font-weight: 400;
 }
 
 html {
