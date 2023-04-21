@@ -7,18 +7,21 @@ import { factionList } from '@/content/factionList';
 
 export default function Home() {
 	React.useEffect(() => {
-		document.body.style.marginTop =
-			document.getElementById('header')?.clientHeight + 'px';
+		const clientHeight =
+			document.getElementById('header')?.clientHeight || 5;
+		document.body.style.marginTop = clientHeight - 5 + 'px';
 
 		window.addEventListener('resize', () => {
-			document.body.style.marginTop =
-				document.getElementById('header')?.clientHeight + 'px';
+			const clientHeight =
+				document.getElementById('header')?.clientHeight || 5;
+			document.body.style.marginTop = clientHeight - 5 + 'px';
 		});
 
 		return () => {
 			window.removeEventListener('resize', () => {
-				document.body.style.marginTop =
-					document.getElementById('header')?.clientHeight + 'px';
+				const clientHeight =
+					document.getElementById('header')?.clientHeight || 5;
+				document.body.style.marginTop = clientHeight - 5 + 'px';
 			});
 		};
 	}, []);
