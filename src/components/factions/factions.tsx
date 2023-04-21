@@ -1,6 +1,7 @@
 // Factions.tsx
 import React from 'react';
 import styles from './factions.module.scss';
+import Image from 'next/image';
 
 export interface FactionLeader {
 	name: string;
@@ -30,7 +31,12 @@ const Factions: React.FC<FactionsProps> = ({ factions }) => {
 			{factions.map((faction, index) => (
 				<div key={index} className={styles.faction}>
 					<div className={styles.image}>
-						<img src={faction.image} alt={faction.name} />
+						<Image
+							width={500}
+							height={836}
+							src={faction.image}
+							alt={faction.name}
+						/>
 					</div>
 					<div className={styles.info}>
 						<h2 className={styles.name}>{faction.name}</h2>

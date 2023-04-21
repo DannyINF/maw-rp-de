@@ -79,6 +79,7 @@
 			img {
 				width: 100%;
 				max-width: 500px;
+				object-fit: contain;
 			}
 		}
 
@@ -86,6 +87,11 @@
 			flex: 1;
 			padding: var(--spacing-large);
 			background-color: var(--bg-black);
+
+			//from 1400px
+			@media (min-width: 1400px) {
+				max-width: 55%;
+			}
 		}
 
 		.leader {

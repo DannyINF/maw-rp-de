@@ -14,7 +14,7 @@ import {
 export const factionList: Faction[] = [
 	{
 		name: 'Menschen',
-		image: '/assets/images/factions/human.png',
+		image: '/assets/images/factions/human.webp',
 		description:
 			'Die Menschen von Gondor sind eine stolze und edle Zivilisation in Westernis. Als eines der bedeutendsten menschlichen Königreiche ist Gondor bekannt für seine mutigen Krieger, weisen Herrscher und prachtvollen Bauten.',
 		leader: {
@@ -37,7 +37,7 @@ export const factionList: Faction[] = [
 	},
 	{
 		name: 'Zwerge',
-		image: '/assets/images/factions/dwarf.png',
+		image: '/assets/images/factions/dwarf.webp',
 		description:
 			'Zwerge sind eine Rasse in Westernis, bekannt für ihre große Stärke, Hartnäckigkeit und meisterlichen Fähigkeiten im Handwerk, Bergbau und Schmieden.',
 		leader: {
@@ -60,7 +60,7 @@ export const factionList: Faction[] = [
 	},
 	{
 		name: 'Orks',
-		image: '/assets/images/factions/orc.png',
+		image: '/assets/images/factions/orc.webp',
 		description:
 			'Orks sind eine brutale und kriegerische Rasse in Westernis, bekannt für ihre rohe Gewalt, Schrecklichkeit und bedingungslose Loyalität gegenüber ihren dunklen Herren.',
 		leader: {
