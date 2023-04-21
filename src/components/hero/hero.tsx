@@ -4,7 +4,7 @@ import styles from './hero.module.scss';
 
 const Hero = () => {
 	return (
-		<section>
+		<section tabIndex={0} role="article">
 			<Parallax
 				blur={{ min: 2, max: 2 }}
 				bgImage="/assets/images/hero-bg1.webp"

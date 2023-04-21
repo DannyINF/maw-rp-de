@@ -71,7 +71,12 @@ const Factions: React.FC<FactionsProps> = ({ factions }) => {
 	}, []);
 
 	return (
-		<section id="fraktionen" className={styles.factions}>
+		<section
+			id="fraktionen"
+			tabIndex={0}
+			role="article"
+			className={styles.factions}
+		>
 			<h2>Fraktionen</h2>
 			{factions.map((faction, index) => (
 				<div

@@ -15,7 +15,11 @@ const Header = () => {
 					width={45}
 					height={45}
 				/>
-				<a href="#home" className={styles.logoLink}>
+				<a
+					href="#mainContent"
+					aria-label="Mythen aus Westernis Main Content Link"
+					className={styles.logoLink}
+				>
 					Mythen aus Westernis
 				</a>
 			</div>

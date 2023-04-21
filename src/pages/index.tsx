@@ -46,8 +46,10 @@ export default function Home() {
 			</Head>
 			<main>
 				<Header />
-				<Hero />
-				<Factions factions={factionList} />
+				<div id="mainContent" tabIndex={0} role="document">
+					<Hero />
+					<Factions factions={factionList} />
+				</div>
 			</main>
 		</>
 	);
