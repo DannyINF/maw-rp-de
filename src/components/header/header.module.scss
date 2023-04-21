@@ -10,12 +10,13 @@
     z-index: 1000;
     background-color: var(--bg-dark);
     min-height: 4.4rem;
-    padding-left: 2rem;
+    padding-left: var(--spacing-large);
     font-size: var(--font-size-large-text);
 
     @media (max-width: 576px) {
         min-height: 4.6rem;
         line-height: 1.2;
+        padding-left: 0.5rem;
     }
 }
 
@@ -24,7 +25,7 @@
     font-size: 1.5rem;
     font-weight: var(--font-weight-extrabold);
     color: var(--text-light);
-    margin-right: 1rem;
+    margin-right: var(--spacing-medium);
     display: flex;
     align-items: center;
 
@@ -106,7 +107,7 @@
 
     //xs
     @media (max-width: 576px) {
-        min-height: 5rem;
+        min-height: 4.8rem;
     }
 
     ul {
@@ -129,7 +130,7 @@
             }
 
             @media (max-width: 576px) {
-                min-height: 5rem;
+                min-height: 4.8rem;
             }
         }
     }

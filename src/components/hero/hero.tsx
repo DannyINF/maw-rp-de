@@ -6,8 +6,8 @@ const Hero = () => {
 	return (
 		<section>
 			<Parallax
-				blur={{ min: 5, max: 5 }}
-				bgImage="/assets/images/hero-bg1.jpg"
+				blur={{ min: 2, max: 2 }}
+				bgImage="/assets/images/hero-bg1.webp"
 				bgImageAlt="background"
 				bgClassName={styles.bgImage}
 				strength={200}
