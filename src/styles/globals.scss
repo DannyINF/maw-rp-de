@@ -42,3 +42,8 @@ body {
 
 	overflow-x: hidden;
 }
+//focus visible
+:focus-visible {
+	outline: 2px solid var(--accent-color-primary-light);
+	outline-offset: -2px;
+}
