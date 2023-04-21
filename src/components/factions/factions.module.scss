@@ -35,9 +35,16 @@
 		align-items: center;
 		margin-bottom: var(--spacing-xxlarge);
 		width: fit-content;
+		position: relative;
+		transition: cubic-bezier(0.075, 0.82, 0.165, 1) 0.3s;
+
+		&:nth-child(odd) {
+			left: -10%;
+		}
 
 		&:nth-child(even) {
 			flex-direction: row-reverse;
+			right: -10%;
 
 			.name {
 				text-align: right;
