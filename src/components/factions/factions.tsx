@@ -40,7 +40,15 @@ const Factions: React.FC<FactionsProps> = ({ factions }) => {
 						const direction = index % 2 === 0 ? 1 : -1;
 						const finalTranslation = translation * direction;
 
-						if (direction === 1) {
+						//check if current scroll progress is in last 100px of page height, if so, set final translation to 0
+						const scrollProgress =
+							(window.pageYOffset /
+								(document.documentElement.scrollHeight -
+									document.documentElement.clientHeight)) *
+							100;
+						if (scrollProgress > 99) {
+							faction.style.transform = `translateX(0px)`;
+						} else if (direction === 1) {
 							faction.style.transform = `translateX(${
 								(finalTranslation > 0 && finalTranslation) || 0
 							}px)`;
@@ -55,7 +63,7 @@ const Factions: React.FC<FactionsProps> = ({ factions }) => {
 		};
 
 		window.addEventListener('scroll', handleScroll);
-		handleScroll(); // Um die Anfangstransparenz zu initialisieren
+		handleScroll();
 
 		return () => {
 			window.removeEventListener('scroll', handleScroll);

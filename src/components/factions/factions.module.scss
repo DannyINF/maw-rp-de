@@ -40,11 +40,18 @@
 
 		&:nth-child(odd) {
 			left: -10%;
+
+			@media (max-width: 1024px) {
+				left: 0;
+			}
 		}
 
 		&:nth-child(even) {
 			flex-direction: row-reverse;
 			right: -10%;
+			@media (max-width: 1024px) {
+				right: 0;
+			}
 
 			.name {
 				text-align: right;
