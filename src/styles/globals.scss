@@ -26,7 +26,7 @@
 	--spacing-large: 2rem;
 	--spacing-xlarge: 3rem;
 	--spacing-xxlarge: 4rem;
-	--spacing-content: 10%;
+	--spacing-content: 20%;
 }
 
 html {
@@ -43,6 +43,19 @@ body {
 
 	overflow-x: hidden;
 }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+span {
+	font-family: var(--font-family);
+}
+
 //focus visible
 :focus-visible {
 	outline: 2px solid var(--accent-color-primary-light);
