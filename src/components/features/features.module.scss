@@ -9,12 +9,12 @@
 		margin-bottom: var(--spacing-xlarge);
 	}
 
-	.faction {
+	.feature {
 		display: flex;
+		padding: 3rem;
 		flex-direction: row;
 		align-items: center;
 		transition: cubic-bezier(0.075, 0.82, 0.165, 1) 0.3s;
-		padding: 3rem;
 
 		&:nth-child(odd) {
 			background-color: var(--bg-dark);
@@ -23,6 +23,10 @@
 		&:nth-child(even) {
 			background-color: var(--accent-color-primary);
 			flex-direction: row-reverse;
+
+			.name {
+				text-align: right;
+			}
 		}
 
 		.image {

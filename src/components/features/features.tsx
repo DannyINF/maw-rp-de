@@ -19,7 +19,7 @@ const Features: React.FC<FeatureProps> = ({ features }) => {
 		<section id="features" className={styles.features}>
 			<h2>Features</h2>
 			{features.map((feature, index) => (
-				<div key={index} className={styles.faction}>
+				<div key={index} className={styles.feature}>
 					<div className={styles.image}>
 						<Image
 							width={500}
