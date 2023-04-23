@@ -6,6 +6,8 @@ import Factions from '@/components/factions/factions';
 import { factionList } from '@/content/factionList';
 import Features from '@/components/features/features';
 import { featureList } from '@/content/featureList';
+import History from '@/components/history/history';
+import { historyList } from '@/content/historyList';
 
 export default function Home() {
 	React.useEffect(() => {
@@ -52,6 +54,7 @@ export default function Home() {
 					<Hero />
 					<Factions factions={factionList} />
 					<Features features={featureList} />
+					<History items={historyList} />
 				</div>
 			</main>
 		</>

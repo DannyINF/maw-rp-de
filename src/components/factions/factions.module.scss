@@ -20,13 +20,9 @@
 	h2 {
 		font-family: var(--font-family);
 		font-weight: var(--font-weight-extrabold);
-		font-size: 3.5rem;
+		font-size: var(--font-size-headline);
 		text-align: center;
 		margin-bottom: var(--spacing-xlarge);
-
-		@media (max-width: 768px) {
-			font-size: 2.5rem;
-		}
 	}
 
 	.faction {
@@ -100,11 +96,16 @@
 		.info {
 			flex: 1;
 			padding: var(--spacing-large);
-			background-color: var(--bg-black);
+			background-color: var(--bg-black-transparent);
 
 			//from 1400px
 			@media (min-width: 1400px) {
 				max-width: 55%;
+			}
+
+			//xs
+			@media (max-width: 768px) {
+				padding: var(--spacing-large) var(--spacing-medium);
 			}
 		}
 
@@ -163,7 +164,7 @@
 					flex-direction: column;
 					flex-flow: wrap;
 					min-width: 100px;
-					background-color: var(--bg-black);
+					background-color: var(--bg-black-transparent);
 					padding: var(--spacing-medium);
 					border-radius: 10px;
 					min-height: 100px;
