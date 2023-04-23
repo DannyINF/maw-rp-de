@@ -16,7 +16,12 @@ export interface FeatureProps {
 
 const Features: React.FC<FeatureProps> = ({ features }) => {
 	return (
-		<section id="features" className={styles.features}>
+		<section
+			id="features"
+			tabIndex={0}
+			role="article"
+			className={styles.features}
+		>
 			<h2>Features</h2>
 			{features.map((feature, index) => (
 				<div key={index} className={styles.feature}>
