@@ -1,0 +1,21 @@
+.text {
+	color: var(--text-light);
+	background-color: var(--bg-black-transparent);
+	border: 3px solid var(--accent-color-primary-highlight);
+	border-bottom: 0;
+	box-shadow: 0 6px 0 var(--accent-color-primary-highlight);
+}
+
+.date {
+	color: var(--text-light);
+	opacity: 0.9 !important;
+	font-size: var(--font-size-large-text) !important;
+	top: 0 !important;
+}
+
+.icon {
+	background-color: var(--bg-black);
+	color: var(--text-light);
+	box-shadow: 0 0 0 4px var(--accent-color-primary-highlight),
+		inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
+}
