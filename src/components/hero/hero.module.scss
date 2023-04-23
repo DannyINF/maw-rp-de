@@ -11,6 +11,14 @@
 	background-color: #21212130;
 	border-bottom: var(--spacing-large) solid
 		var(--accent-color-primary-highlight);
+
+	@media (max-width: 1024px) {
+		min-height: 50vh;
+	}
+
+	@media (max-width: 768px) {
+		min-height: 40vh;
+	}
 }
 
 .bgImage {
@@ -19,7 +27,7 @@
 }
 
 .headline {
-	font-size: 4rem;
+	font-size: var(--font-size-headline);
 	font-weight: var(--font-weight-extrabold);
 	margin-bottom: 20px;
 	margin-top: 0;
