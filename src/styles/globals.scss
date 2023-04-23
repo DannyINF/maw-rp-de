@@ -16,10 +16,24 @@
 
 	//fonts
 	--font-family: 'Proxima Nova', sans-serif;
+	--font-size-small-text: 1rem;
+	--font-size-medium-text: 1.15rem;
 	--font-size-large-text: 1.3rem;
 	--font-weight-bold: 700;
-	--font-size-large-text: 1.3rem;
+	--font-size-headline: 3.5rem;
 	--font-weight-extrabold: 800;
+
+	@media (max-width: 576px) {
+		--font-size-headline: 2.5rem;
+	}
+
+	@media (min-width: 577px) and (max-width: 768px) {
+		--font-size-headline: 2.8rem;
+	}
+
+	@media (min-width: 769px) and (max-width: 1400px) {
+		--font-size-headline: 3.2rem;
+	}
 
 	//spacing
 	--spacing-small: 0.5rem;
