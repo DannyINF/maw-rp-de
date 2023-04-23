@@ -20,7 +20,13 @@ type HistoryProps = {
 
 const History: React.FC<HistoryProps> = ({ items }) => {
 	return (
-		<div className={styles.history}>
+		<section
+			id="geschichte"
+			role="article"
+			tabIndex={0}
+			className={styles.history}
+		>
+			<h2>Geschichte</h2>
 			<VerticalTimeline lineColor="var(--accent-color-primary-highlight)">
 				{items.map(item => (
 					<VerticalTimelineElement
@@ -43,7 +49,7 @@ const History: React.FC<HistoryProps> = ({ items }) => {
 					</VerticalTimelineElement>
 				))}
 			</VerticalTimeline>
-		</div>
+		</section>
 	);
 };
 
