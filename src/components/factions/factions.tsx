@@ -35,7 +35,7 @@ const Factions: React.FC<FactionsProps> = ({ factions }) => {
 					const windowHeight = window.innerHeight;
 					if (rect.top < windowHeight && rect.bottom > 0) {
 						const progress =
-							1.3 - Math.max(0, rect.top) / (windowHeight * 1);
+							1.4 - Math.max(0, rect.top) / (windowHeight * 1);
 						const translation = (1 - progress) * 500;
 						const direction = index % 2 === 0 ? 1 : -1;
 						const finalTranslation = translation * direction;
