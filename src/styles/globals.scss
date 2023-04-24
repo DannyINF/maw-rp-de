@@ -19,6 +19,7 @@
 	--font-size-small-text: 1rem;
 	--font-size-medium-text: 1.15rem;
 	--font-size-large-text: 1.3rem;
+	--font-size-subtitle: 1.8rem;
 	--font-weight-bold: 700;
 	--font-size-headline: 3.5rem;
 	--font-weight-extrabold: 800;
@@ -41,7 +42,7 @@
 	--spacing-large: 2rem;
 	--spacing-xlarge: 3rem;
 	--spacing-xxlarge: 4rem;
-	--spacing-content: 10%;
+	--spacing-content: 15%;
 }
 
 html {
@@ -58,6 +59,19 @@ body {
 
 	overflow-x: hidden;
 }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+span {
+	font-family: var(--font-family);
+}
+
 //focus visible
 :focus-visible {
 	outline: 2px solid var(--accent-color-primary-light);
