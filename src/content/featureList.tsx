@@ -20,7 +20,7 @@ export const featureList: Feature[] = [
 		name: 'Inventar',
 		description:
 			"„Wohin nur mit all deinen Sachen?“, ganz klar - ins Inventar. Das Inventar bietet dir die Möglichkeit deine Gegenstände sicher zu verwahren. Doch pass' auf! Nicht alles scheint so sicher zu sein. Wertvolle Items packst du besser in eine Kiste, bevor sie dir jemand stiehlt.",
-		image: '/assets/test.png',
+		image: '/assets/images/features/inventory.webp',
 		highlights: [
 			{
 				name: 'Sicher',
