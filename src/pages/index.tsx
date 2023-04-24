@@ -10,26 +10,6 @@ import History from '@/components/history/history';
 import { historyList } from '@/content/historyList';
 
 export default function Home() {
-	React.useEffect(() => {
-		const clientHeight =
-			document.getElementById('header')?.clientHeight || 5;
-		document.body.style.marginTop = clientHeight - 5 + 'px';
-
-		window.addEventListener('resize', () => {
-			const clientHeight =
-				document.getElementById('header')?.clientHeight || 5;
-			document.body.style.marginTop = clientHeight - 5 + 'px';
-		});
-
-		return () => {
-			window.removeEventListener('resize', () => {
-				const clientHeight =
-					document.getElementById('header')?.clientHeight || 5;
-				document.body.style.marginTop = clientHeight - 5 + 'px';
-			});
-		};
-	}, []);
-
 	return (
 		<>
 			<Head>
