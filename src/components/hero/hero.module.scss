@@ -1,16 +1,18 @@
+.heroWrapper {
+	transform: translateY(var(--spacing-xxlarge));
+}
+
 .hero {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
-	min-height: 60vh;
+	min-height: 65vh;
 	color: var(--text-light);
 	font-family: var(--font-family);
 	text-align: center;
 	padding: var(--spacing-medium);
 	background-color: #21212130;
-	border-bottom: var(--spacing-large) solid
-		var(--accent-color-primary-highlight);
 
 	@media (max-width: 1024px) {
 		min-height: 50vh;
@@ -18,6 +20,39 @@
 
 	@media (max-width: 768px) {
 		min-height: 40vh;
+		padding-top: var(--spacing-large);
+	}
+
+	.heroButtons {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		gap: 3rem;
+		margin-top: var(--spacing-large);
+		flex-wrap: wrap;
+
+		@media (max-width: 768px) {
+			flex-direction: column;
+			gap: 1rem;
+			margin-bottom: var(--spacing-medium);
+		}
+
+		.buttonPrimary {
+			background-color: var(--accent-color-primary-highlight);
+			color: var(--text-light);
+			text-decoration: none;
+			padding: var(--spacing-medium) var(--spacing-large);
+			font-size: var(--font-size-large-text);
+			box-shadow: 3px 3px 3px 1px var(--bg-black-transparent);
+		}
+		.buttonSecondary {
+			background-color: var(--accent-color-secondary-highlight);
+			color: var(--text-light);
+			text-decoration: none;
+			padding: var(--spacing-medium) var(--spacing-large);
+			font-size: var(--font-size-large-text);
+			box-shadow: 3px 3px 3px 1px var(--bg-black-transparent);
+		}
 	}
 }
 
