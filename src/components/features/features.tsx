@@ -8,6 +8,12 @@ export interface Feature {
 	name: string;
 	image: string;
 	description: string;
+	highlights: FeatureHighlight[];
+}
+
+export interface FeatureHighlight {
+	icon: JSX.Element;
+	name: string;
 }
 
 export interface FeatureProps {
@@ -88,6 +94,18 @@ const Features: React.FC<FeatureProps> = ({ features }) => {
 						<p className={styles.description}>
 							{feature.description}
 						</p>
+						<div className={styles.highlights}>
+							{feature.highlights.map((highlight, index) => (
+								<div
+									key={index}
+									className={styles.highlight}
+									role="listitem"
+								>
+									{highlight.icon}
+									<p>{highlight.name}</p>
+								</div>
+							))}
+						</div>
 					</div>
 				</div>
 			))}
