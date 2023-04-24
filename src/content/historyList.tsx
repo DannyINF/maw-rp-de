@@ -26,7 +26,7 @@ export const historyList: HistoryItem[] = [
 		title: 'Entwicklung beginnt',
 		icon: <FaCode role="img" aria-label="Code" />,
 		content:
-			'Mekphen startet als Entwickler die Umsetzung der geplanten Features und die Erstellung des Spielservers. Dabei entstehen die ersten Bausteine wie Inventar System und Crafting System.',
+			'Mekphen startet als Entwickler die Umsetzung der geplanten Features und die Erstellung des Spielservers. Dabei entstehen die ersten Bausteine wie Inventar-System und Crafting-System.',
 	},
 	{
 		key: 3,
@@ -66,7 +66,7 @@ export const historyList: HistoryItem[] = [
 		title: 'Eventwoche',
 		icon: <GiFireworkRocket role="img" aria-label="Firework Rocket" />,
 		content:
-			'Bereits am Anfang des neuen Jahres fand eine große Eventwoche statt. Angmar wird zu Isengard und später zu Mordor. Moria wird erst ein Teil von Gondor und danach zu Rohan. Ebenfalls weren große Schlachten, wie die von Minas Tirith und Helms Klamm nachgespielt.',
+			'Bereits am Anfang des neuen Jahres fand eine große Eventwoche statt. Angmar wird zu Isengard und später zu Mordor. Moria wird erst ein Teil von Gondor und danach zu Rohan. Ebenfalls werden große Schlachten, wie die von Minas Tirith und Helms Klamm nachgespielt.',
 	},
 	{
 		key: 8,
@@ -74,7 +74,7 @@ export const historyList: HistoryItem[] = [
 		title: 'Krieg von Westernis',
 		icon: <RiSwordLine role="img" aria-label="Swords" />,
 		content:
-			'Mit Krieg von Westernis kommt das größte alleinstehende Feature auf den Server. Durch über 10.000 Zeilen Code schafft es Krieg von Westernis ein eigenes Strategiespiel für die Führungsebenen zu werden.',
+			'Mit "Krieg von Westernis" kommt das größte alleinstehende Feature auf den Server. Durch über 10.000 Zeilen Code schafft es "Krieg von Westernis" ein eigenes Strategiespiel für die Führungsebenen zu werden.',
 	},
 	{
 		key: 9,
@@ -82,7 +82,7 @@ export const historyList: HistoryItem[] = [
 		title: 'Alchemie System',
 		icon: <GiFireBottle role="img" aria-label="Fire Bottle" />,
 		content:
-			'Durch das neue Alchemie System werden die Kräuter vervielfacht und die Alchemisten haben die Möglichkeit, ihr können mit neuem und einzigartigem Gameplay auf die Probe zu stellen. Neben den neuen Kräutern gibt es auch viele neue Tränke, welche in der richtigen Reihenfolge gebraut werden müssen.',
+			'Durch das neue Alchemie System werden die Kräuter vervielfacht und die Alchemisten haben die Möglichkeit, ihr Können mit neuem und einzigartigem Gameplay auf die Probe zu stellen. Neben den neuen Kräutern gibt es auch viele neue Tränke, welche in der richtigen Reihenfolge gebraut werden müssen.',
 	},
 	{
 		key: 10,
@@ -90,6 +90,6 @@ export const historyList: HistoryItem[] = [
 		title: 'Arost Bündnis',
 		icon: <FaHandshake role="img" aria-label="Handshake" />,
 		content:
-			'Nach gemeinsamer Entscheidung schließen sich die 3 Nebenfraktionen der Elben, Dunländer und Wandernden zusammen und werden zum Bündnis der neutralen Handelsstadt Arost. Die Stadt wird zu einem wichtigen Handelszentrum und wird von allen Fraktionen als neue Hauptstadt anerkannt.',
+			'Nach gemeinsamer Entscheidung schließen sich die drei Nebenfraktionen der Elben, Dunländer und Wandernden zusammen und werden zum Bündnis der neutralen Handelsstadt Arost. Die Stadt wird zu einem wichtigen Handelszentrum und wird von allen Fraktionen als neue Hauptstadt anerkannt.',
 	},
 ];

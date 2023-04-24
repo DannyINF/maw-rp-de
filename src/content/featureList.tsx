@@ -19,7 +19,7 @@ export const featureList: Feature[] = [
 	{
 		name: 'Inventar',
 		description:
-			'„Wohin nur mit all deinen Sachen?“, ganz klar ins Inventar. Das Inventar bietet dir die Möglichkeit deine Gegenstände sicher zu verwahren. Doch Pass auf nicht alles scheint so sicher zu sein, wertvolle Items packst du besser in eine Kiste, bevor dir jemand diese stiehlt.',
+			"„Wohin nur mit all deinen Sachen?“, ganz klar - ins Inventar. Das Inventar bietet dir die Möglichkeit deine Gegenstände sicher zu verwahren. Doch pass' auf! Nicht alles scheint so sicher zu sein. Wertvolle Items packst du besser in eine Kiste, bevor sie dir jemand stiehlt.",
 		image: '/assets/test.png',
 		highlights: [
 			{
@@ -51,7 +51,7 @@ export const featureList: Feature[] = [
 	{
 		name: 'Eroberungen',
 		description:
-			'Durch das Eroberungssystem werden die Schlachten auf unseren Server gesteuert. Auf der Karte verteilt gibt es 11 einzigartige Gebiete aus Herr Der Ringe, welche ihr mit euren Mitspielern in epischen Schlachten einnehmen oder verteidigen könnt. Da bei diesen Schlachten große Heere der 3 Fraktionen aufeinander treffen ist es ratsam mit Taktik vorzugehen.',
+			'Das Eroberungssystem steuert die Schlachten auf unserem Server. Auf der Karte verteilt gibt es 11 einzigartige Gebiete aus "Der Herr Der Ringe", welche ihr mit euren Mitspielern in epischen Schlachten einnehmen oder verteidigen könnt. Da bei diesen Schlachten große Heere der drei Fraktionen aufeinander treffen, ist es ratsam, mit Taktik vorzugehen.',
 		image: '/assets/images/features/conquest.webp',
 		highlights: [
 			{
@@ -77,7 +77,7 @@ export const featureList: Feature[] = [
 	{
 		name: 'Crafting',
 		description:
-			'Ob Waffen, Tränke, Essen oder andere nützliche Dinge. All dies kannst du durch unser Crafting System direkt herstellen. Also probiere dich doch in den verschiedenen Berufen und beginne dein Handelsimperium aufzubauen. Die Nutzung ist benutzerfreundlich gestaltet durch die direkte Anbindung an das Inventar System.',
+			'Ob Waffen, Tränke, Essen oder andere nützliche Dinge - all dies kannst du durch unser Crafting-System direkt herstellen. Also probiere dich doch in den verschiedenen Berufen und beginne, dein Handelsimperium aufzubauen. Die Nutzung ist durch die direkte Anbindung an das Inventar-System sehr benutzerfreundlich gestaltet.',
 		image: '/assets/images/features/crafting.webp',
 		highlights: [
 			{

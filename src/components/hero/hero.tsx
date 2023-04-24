@@ -15,7 +15,7 @@ const Hero = () => {
 				<div className={styles.hero}>
 					<h1 className={styles.headline}>Mythen aus Westernis</h1>
 					<h2 className={styles.subheadline}>
-						Deine Bestimmung, in der großen von Westernis Welt
+						Deine Bestimmung in der großen Welt von Westernis
 					</h2>
 					<div className={styles.heroButtons}>
 						<a href="#beitreten" className={styles.buttonPrimary}>

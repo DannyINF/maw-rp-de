@@ -39,7 +39,7 @@ export const factionList: Faction[] = [
 		name: 'Zwerge',
 		image: '/assets/images/factions/dwarf.webp',
 		description:
-			'Zwerge sind eine Rasse in Westernis, bekannt für ihre große Stärke, Hartnäckigkeit und meisterlichen Fähigkeiten im Handwerk, Bergbau und Schmieden.',
+			'Zwerge sind ein Volk in Westernis, bekannt für ihre große Stärke, Hartnäckigkeit und meisterlichen Fähigkeiten im Handwerk, Bergbau und Schmieden.',
 		leader: {
 			name: 'König Durin IV',
 		},
@@ -62,7 +62,7 @@ export const factionList: Faction[] = [
 		name: 'Orks',
 		image: '/assets/images/factions/orc.webp',
 		description:
-			'Orks sind eine brutale und kriegerische Rasse in Westernis, bekannt für ihre rohe Gewalt, Schrecklichkeit und bedingungslose Loyalität gegenüber ihren dunklen Herren.',
+			'Orks sind ein brutales und kriegerisches Volk in Westernis, bekannt für ihre rohe Gewalt, Schrecklichkeit und bedingungslose Loyalität gegenüber ihren dunklen Herren.',
 		leader: {
 			name: 'Hexenkönig von Angmar',
 		},
