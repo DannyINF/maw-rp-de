@@ -16,14 +16,17 @@
 		transition: cubic-bezier(0.075, 0.82, 0.165, 1) 0.3s;
 		padding: var(--spacing-medium) var(--spacing-content);
 		justify-content: center;
-		gap: 2rem;
+		gap: 4rem;
 		flex-direction: row;
+		margin-bottom: var(--spacing-xxlarge);
+		min-height: 450px;
 
 		//mobile
 		@media (max-width: 768px) {
 			flex-wrap: wrap;
 			padding: 0;
 			gap: 0;
+			min-height: unset;
 		}
 
 		&:nth-child(even) {
