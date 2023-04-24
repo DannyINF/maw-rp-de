@@ -42,7 +42,7 @@ export default function Home() {
 					content="width=device-width, initial-scale=1"
 				/>
 				<link rel="icon" href="/favicon.ico" />
-				<link rel="canonical" href="https://mythenauswesternis.de/" />
+				<link rel="canonical" href="https://www.maw-rp.de/" />
 				<meta property="og:type" content="website" />
 				<meta
 					property="og:title"
@@ -52,9 +52,34 @@ export default function Home() {
 					property="og:description"
 					content="Tritt noch heute dem Mythen aus Westernis Rollenspiel-Server bei und lerne als Mensch, Zwerg oder Ork eine neue Welt kennen!"
 				/>
+				<meta property="og:url" content="https://www.maw-rp.de/" />
 				<meta
-					property="og:url"
-					content="https://mythenauswesternis.de/"
+					property="og:image"
+					content="https://www.maw-rp.de/assets/images/ogimage.jpg"
+				/>
+				<meta property="og:site_name" content="Herr der Ringe RP" />
+				<meta name="twitter:card" content="summary_large_image" />
+				<meta
+					name="twitter:title"
+					content="Mythen aus Westernis RP - Deine einzigartige Rollenspiel Erfahrung in Garry's Mod"
+				/>
+				<meta
+					name="twitter:description"
+					content="Tritt noch heute dem Mythen aus Westernis Rollenspiel-Server bei und lerne als Mensch, Zwerg oder Ork eine neue Welt kennen!"
+				/>
+				<meta name="twitter:url" content="https://www.maw-rp.de/" />
+				<meta
+					name="twitter:image"
+					content="https://www.maw-rp.de/assets/images/ogimage.jpg"
+				/>
+				<meta name="twitter:site" content="@HdRMythen" />
+				<meta name="twitter:creator" content="@zimtzimt" />
+				<meta name="twitter:domain" content="maw-rp.de" />
+				<meta name="robots" content="index, follow" />
+				<meta name="googlebot" content="index, follow" />
+				<meta
+					name="keywords"
+					content="Mythen aus Westernis, Rollenspiel, Garry's Mod, RP Server, Mensch, Zwerg, Ork, Fantasy, Gaming, GMod, Community, Herr der Ringe, HdR, Rollenspiel-Erfahrung, Rollenspiel-Abenteuer, Online-Gaming, Spiele, Server, deutsche Rollenspiel-Community, Garry's Mod Server"
 				/>
 			</Head>
 			<main>
