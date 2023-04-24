@@ -3,7 +3,7 @@ import { GiAnvilImpact, GiBrain, GiPotionBall } from 'react-icons/gi';
 import { RiTreasureMapLine } from 'react-icons/ri';
 import { TbBackpack, TbSwords } from 'react-icons/tb';
 import { BsFillPersonCheckFill, BsShieldFillCheck } from 'react-icons/bs';
-import { GrAccessibility } from 'react-icons/gr';
+import { HiUserGroup } from 'react-icons/hi';
 
 export const featureList: Feature[] = [
 	{
@@ -22,7 +22,7 @@ export const featureList: Feature[] = [
 			},
 			{
 				name: 'Interaktiv',
-				icon: <GrAccessibility role="img" aria-label="Accessbility" />,
+				icon: <HiUserGroup role="img" aria-label="Accessbility" />,
 			},
 		],
 	},
