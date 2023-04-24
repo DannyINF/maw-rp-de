@@ -1,7 +1,17 @@
 import { Feature } from '@/components/features/features';
-import { GiAnvilImpact, GiBrain, GiPotionBall } from 'react-icons/gi';
+import {
+	GiAnvilImpact,
+	GiBrain,
+	GiPotionBall,
+	GiIceSpear,
+} from 'react-icons/gi';
 import { RiTreasureMapLine } from 'react-icons/ri';
-import { TbBackpack, TbSwords } from 'react-icons/tb';
+import {
+	TbBackpack,
+	TbSwords,
+	TbPlugConnected,
+	TbTopologyComplex,
+} from 'react-icons/tb';
 import { BsFillPersonCheckFill, BsShieldFillCheck } from 'react-icons/bs';
 import { HiUserGroup } from 'react-icons/hi';
 
@@ -17,12 +27,18 @@ export const featureList: Feature[] = [
 				icon: <BsShieldFillCheck role="img" aria-label="Shield" />,
 			},
 			{
-				name: 'Alles an einem Ort',
+				name: 'An einem Ort',
 				icon: <TbBackpack role="img" aria-label="Backpack" />,
 			},
 			{
 				name: 'Interaktiv',
 				icon: <HiUserGroup role="img" aria-label="Accessbility" />,
+			},
+			{
+				name: 'Alle Systeme verbunden',
+				icon: (
+					<TbPlugConnected role="img" aria-label="Plug Connected" />
+				),
 			},
 		],
 	},
@@ -46,6 +62,10 @@ export const featureList: Feature[] = [
 					<RiTreasureMapLine role="img" aria-label="Treasure Map" />
 				),
 			},
+			{
+				name: 'Verschiedene Waffen',
+				icon: <GiIceSpear role="img" aria-label="Ice Spear" />,
+			},
 		],
 	},
 	{
@@ -68,6 +88,15 @@ export const featureList: Feature[] = [
 					<BsFillPersonCheckFill
 						role="img"
 						aria-label="Person Check"
+					/>
+				),
+			},
+			{
+				name: 'Einzigartig',
+				icon: (
+					<TbTopologyComplex
+						role="img"
+						aria-label="Complex Topology"
 					/>
 				),
 			},
