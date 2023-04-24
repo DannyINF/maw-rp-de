@@ -1,10 +1,14 @@
 .history {
+	margin-bottom: calc(var(--spacing-content) * 0.5);
+	padding-top: var(--spacing-xxlarge);
 	h2 {
 		color: var(--text-light);
 		font-size: var(--font-size-headline);
 		font-weight: var(--font-weight-extrabold);
 		text-align: center;
-		margin-bottom: var(--spacing-xxlarge);
+		margin-bottom: calc(var(--spacing-xxlarge) * 1.5);
+		padding: var(--spacing-medium) 0;
+		background-color: var(--accent-color-primary);
 	}
 }
 
