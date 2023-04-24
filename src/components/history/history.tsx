@@ -27,7 +27,7 @@ const History: React.FC<HistoryProps> = ({ items }) => {
 			className={styles.history}
 		>
 			<h2>Geschichte</h2>
-			<VerticalTimeline lineColor="var(--accent-color-primary-highlight)">
+			<VerticalTimeline lineColor="var(--accent-color-secondary)">
 				{items.map(item => (
 					<VerticalTimelineElement
 						key={item.key}
@@ -39,7 +39,7 @@ const History: React.FC<HistoryProps> = ({ items }) => {
 						iconClassName={styles.icon}
 						contentArrowStyle={{
 							borderRight:
-								'9px solid var(--accent-color-primary-highlight)',
+								'9px solid var(--accent-color-secondary)',
 						}}
 					>
 						<h3 className="vertical-timeline-element-title">
