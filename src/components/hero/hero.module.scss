@@ -38,7 +38,7 @@
 		}
 
 		.buttonPrimary {
-			background-color: var(--accent-color-primary-highlight);
+			background-color: var(--accent-color-secondary);
 			color: var(--text-light);
 			text-decoration: none;
 			padding: var(--spacing-medium) var(--spacing-large);
@@ -47,7 +47,7 @@
 			font-weight: var(--font-weight-bold);
 		}
 		.buttonSecondary {
-			background-color: var(--accent-color-secondary-highlight);
+			background-color: var(--bg-dark);
 			color: var(--text-light);
 			text-decoration: none;
 			padding: var(--spacing-medium) var(--spacing-large);

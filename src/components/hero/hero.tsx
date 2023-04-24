@@ -18,11 +18,14 @@ const Hero = () => {
 						Deine Bestimmung, in der großen von Westernis Welt
 					</h2>
 					<div className={styles.heroButtons}>
-						<a href="#fraktionen" className={styles.buttonPrimary}>
-							Fraktionen
-						</a>
-						<a href="#beitreten" className={styles.buttonSecondary}>
+						<a href="#beitreten" className={styles.buttonPrimary}>
 							Beitreten
+						</a>
+						<a
+							href="#fraktionen"
+							className={styles.buttonSecondary}
+						>
+							Fraktionen
 						</a>
 					</div>
 				</div>
