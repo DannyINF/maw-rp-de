@@ -40,7 +40,20 @@ export default function Home() {
 					content="width=device-width, initial-scale=1"
 				/>
 				<link rel="icon" href="/favicon.ico" />
-				<meta name="robots" content="noindex, nofollow" />
+				<link rel="canonical" href="https://mythenauswesternis.de/" />
+				<meta property="og:type" content="website" />
+				<meta
+					property="og:title"
+					content="Mythen aus Westernis RP - Deine einzigartige Rollenspiel Erfahrung in Garry's Mod"
+				/>
+				<meta
+					property="og:description"
+					content="Tritt noch heute dem Mythen aus Westernis Rollenspiel-Server bei und lerne als Mensch, Zwerg oder Ork eine neue Welt kennen!"
+				/>
+				<meta
+					property="og:url"
+					content="https://mythenauswesternis.de/"
+				/>
 			</Head>
 			<main>
 				{NEXT_LOGIN_ENABLED == 'true' && !isAuthenticated ? (
