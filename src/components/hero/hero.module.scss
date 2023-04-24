@@ -44,6 +44,7 @@
 			padding: var(--spacing-medium) var(--spacing-large);
 			font-size: var(--font-size-large-text);
 			box-shadow: 3px 3px 3px 1px var(--bg-black-transparent);
+			font-weight: var(--font-weight-bold);
 		}
 		.buttonSecondary {
 			background-color: var(--accent-color-secondary-highlight);
@@ -52,6 +53,7 @@
 			padding: var(--spacing-medium) var(--spacing-large);
 			font-size: var(--font-size-large-text);
 			box-shadow: 3px 3px 3px 1px var(--bg-black-transparent);
+			font-weight: var(--font-weight-bold);
 		}
 	}
 }
