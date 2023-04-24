@@ -9,8 +9,21 @@ import { featureList } from '@/content/featureList';
 import History from '@/components/history/history';
 import { historyList } from '@/content/historyList';
 import Connect from '@/components/connect/connect';
+import getConfig from 'next/config';
+import dynamic from 'next/dynamic';
+
+const Login = dynamic(
+	() => import('@/components/login/login').then(mod => mod.Login),
+	{
+		ssr: false,
+	}
+);
+const { publicRuntimeConfig } = getConfig();
+const { NEXT_LOGIN_ENABLED } = publicRuntimeConfig;
 
 export default function Home() {
+	const [isAuthenticated, setIsAuthenticated] = React.useState(false);
+
 	return (
 		<>
 			<Head>
@@ -30,14 +43,20 @@ export default function Home() {
 				<meta name="robots" content="noindex, nofollow" />
 			</Head>
 			<main>
-				<Header />
-				<div id="mainContent" tabIndex={0} role="document">
-					<Hero />
-					<Factions factions={factionList} />
-					<Features features={featureList} />
-					<History items={historyList} />
-					<Connect serverIp="84.200.229.44:27020" />
-				</div>
+				{NEXT_LOGIN_ENABLED == 'true' && !isAuthenticated ? (
+					<Login onLoginSuccess={() => setIsAuthenticated(true)} />
+				) : (
+					<>
+						<Header />
+						<div id="mainContent" tabIndex={0} role="document">
+							<Hero />
+							<Factions factions={factionList} />
+							<Features features={featureList} />
+							<History items={historyList} />
+							<Connect serverIp="84.200.229.44:27020" />
+						</div>
+					</>
+				)}
 			</main>
 		</>
 	);

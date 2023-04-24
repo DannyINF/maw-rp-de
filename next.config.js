@@ -5,6 +5,9 @@ const nextConfig = {
 		locales: ['de'],
 		defaultLocale: 'de',
 	},
+	publicRuntimeConfig: {
+		NEXT_LOGIN_ENABLED: process.env.NEXT_LOGIN_ENABLED,
+	},
 };
 
 module.exports = nextConfig;
