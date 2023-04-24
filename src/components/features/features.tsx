@@ -96,11 +96,7 @@ const Features: React.FC<FeatureProps> = ({ features }) => {
 						</p>
 						<div className={styles.highlights}>
 							{feature.highlights.map((highlight, index) => (
-								<div
-									key={index}
-									className={styles.highlight}
-									role="listitem"
-								>
+								<div key={index} className={styles.highlight}>
 									{highlight.icon}
 									<p>{highlight.name}</p>
 								</div>
