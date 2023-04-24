@@ -1,28 +1,22 @@
 .factions {
-	padding: var(--spacing-xlarge);
-	margin: 0 10%;
+	padding: var(--spacing-xlarge) 0;
 	background-color: var(--bg-dark);
 	color: var(--text-light);
-	padding-top: var(--spacing-medium);
+	padding-top: var(--spacing-xxlarge);
 
-	//on mobile
-	@media (max-width: 1200px) {
-		margin: 0 5%;
-		padding: var(--spacing-medium);
-	}
-
-	//mobile
-	@media (max-width: 768px) {
-		margin: 0;
-		padding: 0;
-	}
-
-	h2 {
+	> h2 {
 		font-family: var(--font-family);
 		font-weight: var(--font-weight-extrabold);
 		font-size: var(--font-size-headline);
 		text-align: center;
-		margin-bottom: var(--spacing-xlarge);
+		margin-bottom: calc(var(--spacing-xlarge) * 2);
+		background-color: var(--accent-color-primary);
+		margin-top: 0;
+		padding: var(--spacing-medium) 0;
+
+		@media (max-width: 768px) {
+			margin-bottom: var(--spacing-xlarge);
+		}
 	}
 
 	.faction {
@@ -33,6 +27,11 @@
 		width: fit-content;
 		position: relative;
 		transition: cubic-bezier(0.075, 0.82, 0.165, 1) 0.3s;
+		padding: 0 calc(var(--spacing-content) * 0.5);
+
+		@media (max-width: 768px) {
+			padding: 0;
+		}
 
 		&:nth-child(odd) {
 			left: -10%;
