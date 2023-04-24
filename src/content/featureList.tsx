@@ -32,7 +32,13 @@ export const featureList: Feature[] = [
 			},
 			{
 				name: 'Interaktiv',
-				icon: <HiUserGroup role="img" aria-label="Accessbility" />,
+				icon: (
+					<HiUserGroup
+						role="img"
+						aria-hidden={false}
+						aria-label="User Group"
+					/>
+				),
 			},
 			{
 				name: 'Alle Systeme verbunden',
