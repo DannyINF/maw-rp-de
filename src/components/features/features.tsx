@@ -1,6 +1,6 @@
 // Features.tsx
 
-import React from 'react';
+import React, { useEffect, useRef } from 'react';
 import styles from './features.module.scss';
 import Image from 'next/image';
 
@@ -15,6 +15,51 @@ export interface FeatureProps {
 }
 
 const Features: React.FC<FeatureProps> = ({ features }) => {
+	const featuresRef = useRef<(HTMLDivElement | null)[]>([]);
+
+	useEffect(() => {
+		const handleScroll = () => {
+			featuresRef.current.forEach((feature, index) => {
+				if (feature) {
+					const rect = feature.getBoundingClientRect();
+					const windowHeight = window.innerHeight;
+					if (rect.top < windowHeight && rect.bottom > 0) {
+						const progress =
+							1.4 - Math.max(0, rect.top) / (windowHeight * 1);
+						const translation = (1 - progress) * 500;
+						const direction = index % 2 === 0 ? 1 : -1;
+						const finalTranslation = translation * direction;
+
+						//check if current scroll progress is in last 100px of page height, if so, set final translation to 0
+						const scrollProgress =
+							(window.pageYOffset /
+								(document.documentElement.scrollHeight -
+									document.documentElement.clientHeight)) *
+							100;
+						if (scrollProgress > 99) {
+							feature.style.transform = `translateX(0px)`;
+						} else if (direction === 1) {
+							feature.style.transform = `translateX(${
+								(finalTranslation > 0 && finalTranslation) || 0
+							}px)`;
+						} else {
+							feature.style.transform = `translateX(${
+								(finalTranslation < 0 && finalTranslation) || 0
+							}px)`;
+						}
+					}
+				}
+			});
+		};
+
+		window.addEventListener('scroll', handleScroll);
+		handleScroll();
+
+		return () => {
+			window.removeEventListener('scroll', handleScroll);
+		};
+	}, []);
+
 	return (
 		<section
 			id="features"
@@ -24,7 +69,11 @@ const Features: React.FC<FeatureProps> = ({ features }) => {
 		>
 			<h2>Features</h2>
 			{features.map((feature, index) => (
-				<div key={index} className={styles.feature}>
+				<div
+					key={index}
+					className={styles.feature}
+					ref={element => (featuresRef.current[index] = element)}
+				>
 					<div className={styles.image}>
 						<Image
 							width={500}
