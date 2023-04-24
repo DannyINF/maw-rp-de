@@ -30,7 +30,7 @@
 
 		.image {
 			text-align: center;
-			flex-basis: 50%;
+			flex-basis: 45%;
 
 			//mobile
 			@media (max-width: 768px) {
@@ -52,12 +52,7 @@
 		.info {
 			padding: var(--spacing-large);
 			background-color: var(--bg-black-transparent);
-			flex-basis: 45%;
-
-			//on tablet
-			@media (min-width: 769px) and (max-width: 1400px) {
-				flex-basis: 43%;
-			}
+			flex-basis: 50%;
 
 			//mobile
 			@media (max-width: 768px) {
@@ -75,6 +70,7 @@
 				margin-bottom: var(--spacing-medium);
 				color: var(--accent-color-primary-light);
 				font-size: var(--font-size-subtitle);
+				font-weight: var(--font-weight-bold);
 			}
 
 			.description {

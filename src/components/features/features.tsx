@@ -31,10 +31,11 @@ const Features: React.FC<FeatureProps> = ({ features }) => {
 							height={250}
 							src={feature.image}
 							alt={feature.name}
+							loading="lazy"
 						/>
 					</div>
 					<div className={styles.info}>
-						<h2 className={styles.name}>{feature.name}</h2>
+						<h3 className={styles.name}>{feature.name}</h3>
 						<p className={styles.description}>
 							{feature.description}
 						</p>
