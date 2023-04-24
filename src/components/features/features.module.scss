@@ -1,6 +1,7 @@
 .features {
 	color: var(--text-light);
 	padding-top: var(--spacing-large);
+	overflow-x: hidden;
 
 	h2 {
 		font-weight: var(--font-weight-extrabold);
@@ -107,14 +108,9 @@
 				margin-top: var(--spacing-large);
 				display: flex;
 				gap: var(--spacing-medium);
-				align-self: flex-start;
+				align-self: center;
 				flex-wrap: wrap;
 				justify-content: center;
-
-				//mobile
-				@media (max-width: 768px) {
-					align-self: center;
-				}
 
 				.highlight {
 					background-color: var(--bg-black-transparent);
