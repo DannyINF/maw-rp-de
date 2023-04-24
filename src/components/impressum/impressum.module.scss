@@ -1,0 +1,49 @@
+.impressum-container {
+	margin: var(--spacing-small);
+	background-color: var(--bg-black-transparent);
+	border-radius: var(--spacing-small);
+	padding: var(--spacing-small);
+	width: fit-content;
+	margin-top: calc(var(--spacing-large) * -1.75);
+}
+
+.impressum-button {
+	background-color: transparent;
+	border: none;
+	color: var(--text-light);
+	font-family: var(--font-family);
+	font-size: var(--font-size-medium-text);
+	cursor: pointer;
+	outline: none;
+
+	&:hover {
+		color: var(--accent-color-primary);
+	}
+}
+
+.modalContent {
+	h3 {
+		font-size: var(--font-size-large-text);
+		font-weight: var(--font-weight-bold);
+		margin-top: 0;
+	}
+
+	h4 {
+		font-size: var(--font-size-medium-text);
+		font-weight: var(--font-weight-bold);
+		margin-top: var(--spacing-large);
+		margin-bottom: var(--spacing-small);
+	}
+
+	h5 {
+		font-size: var(--font-size-small-text);
+		font-weight: var(--font-weight-bold);
+		margin-top: 0;
+	}
+
+	a {
+		color: var(--accent-color-primary);
+		text-decoration: none;
+		font-weight: var(--font-weight-bold);
+	}
+}

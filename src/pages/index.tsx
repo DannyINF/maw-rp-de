@@ -11,6 +11,8 @@ import { historyList } from '@/content/historyList';
 import Connect from '@/components/connect/connect';
 import getConfig from 'next/config';
 import dynamic from 'next/dynamic';
+import Impressum from '@/components/impressum/impressum';
+import { ModalProvider } from '@/context/modalContext';
 
 const Login = dynamic(
 	() => import('@/components/login/login').then(mod => mod.Login),
@@ -56,20 +58,25 @@ export default function Home() {
 				/>
 			</Head>
 			<main>
-				{NEXT_LOGIN_ENABLED == 'true' && !isAuthenticated ? (
-					<Login onLoginSuccess={() => setIsAuthenticated(true)} />
-				) : (
-					<>
-						<Header />
-						<div id="mainContent" tabIndex={0} role="document">
-							<Hero />
-							<Factions factions={factionList} />
-							<Features features={featureList} />
-							<History items={historyList} />
-							<Connect serverIp="84.200.229.44:27020" />
-						</div>
-					</>
-				)}
+				<ModalProvider>
+					{NEXT_LOGIN_ENABLED == 'true' && !isAuthenticated ? (
+						<Login
+							onLoginSuccess={() => setIsAuthenticated(true)}
+						/>
+					) : (
+						<>
+							<Header />
+							<div id="mainContent" tabIndex={0} role="document">
+								<Hero />
+								<Factions factions={factionList} />
+								<Features features={featureList} />
+								<History items={historyList} />
+								<Connect serverIp="84.200.229.44:27020" />
+							</div>
+						</>
+					)}
+					<Impressum />
+				</ModalProvider>
 			</main>
 		</>
 	);
