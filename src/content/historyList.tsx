@@ -1,5 +1,11 @@
 import { HistoryItem } from '@/components/history/history';
-import { FaCode, FaCogs, FaBug, FaPencilAlt, FaHandshake } from 'react-icons/fa';
+import {
+	FaCode,
+	FaCogs,
+	FaBug,
+	FaPencilAlt,
+	FaHandshake,
+} from 'react-icons/fa';
 import { BsFillRocketTakeoffFill } from 'react-icons/bs';
 import { TbChristmasTree } from 'react-icons/tb';
 import { GiFireworkRocket, GiFireBottle } from 'react-icons/gi';
@@ -8,7 +14,7 @@ import { RiSwordLine } from 'react-icons/ri';
 export const historyList: HistoryItem[] = [
 	{
 		key: 1,
-		date: 'Februar 2022',
+		date: '05. Februar 2022',
 		title: 'Konzeptionierung',
 		icon: <FaPencilAlt role="img" aria-label="Pencil" />,
 		content:
@@ -16,7 +22,7 @@ export const historyList: HistoryItem[] = [
 	},
 	{
 		key: 2,
-		date: 'Juni 2022',
+		date: '01. Juni 2022',
 		title: 'Entwicklung beginnt',
 		icon: <FaCode role="img" aria-label="Code" />,
 		content:
@@ -24,7 +30,7 @@ export const historyList: HistoryItem[] = [
 	},
 	{
 		key: 3,
-		date: 'September 2022',
+		date: '01. September 2022',
 		title: 'Beta-Test',
 		icon: <FaBug role="img" aria-label="Bug" />,
 		content:
@@ -40,7 +46,7 @@ export const historyList: HistoryItem[] = [
 	},
 	{
 		key: 5,
-		date: 'November 2022',
+		date: '16. November 2022',
 		title: 'Erstes Update',
 		icon: <FaCogs role="img" aria-label="Cogs" />,
 		content:
@@ -48,7 +54,7 @@ export const historyList: HistoryItem[] = [
 	},
 	{
 		key: 6,
-		date: 'Dezember 2022',
+		date: '10. Dezember 2022',
 		title: 'Dezember Update',
 		icon: <TbChristmasTree role="img" aria-label="Christmas Tree" />,
 		content:
@@ -56,7 +62,7 @@ export const historyList: HistoryItem[] = [
 	},
 	{
 		key: 7,
-		date: 'Januar 2022',
+		date: '02. Januar 2022',
 		title: 'Eventwoche',
 		icon: <GiFireworkRocket role="img" aria-label="Firework Rocket" />,
 		content:
@@ -64,7 +70,7 @@ export const historyList: HistoryItem[] = [
 	},
 	{
 		key: 8,
-		date: 'März 2022',
+		date: '14. März 2022',
 		title: 'Krieg von Westernis',
 		icon: <RiSwordLine role="img" aria-label="Swords" />,
 		content:
@@ -72,7 +78,7 @@ export const historyList: HistoryItem[] = [
 	},
 	{
 		key: 9,
-		date: 'März 2022',
+		date: '25. März 2022',
 		title: 'Alchemie System',
 		icon: <GiFireBottle role="img" aria-label="Fire Bottle" />,
 		content:
@@ -80,7 +86,7 @@ export const historyList: HistoryItem[] = [
 	},
 	{
 		key: 10,
-		date: 'April 2022',
+		date: '20. April 2022',
 		title: 'Arost Bündnis',
 		icon: <FaHandshake role="img" aria-label="Handshake" />,
 		content:
