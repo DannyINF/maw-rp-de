@@ -82,8 +82,8 @@ const Features: React.FC<FeatureProps> = ({ features }) => {
 				>
 					<div className={styles.image}>
 						<Image
-							width={500}
-							height={250}
+							width={1000}
+							height={1000}
 							src={feature.image}
 							alt={feature.name}
 							loading="lazy"
