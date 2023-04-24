@@ -8,6 +8,7 @@ import Features from '@/components/features/features';
 import { featureList } from '@/content/featureList';
 import History from '@/components/history/history';
 import { historyList } from '@/content/historyList';
+import Connect from '@/components/connect/connect';
 
 export default function Home() {
 	return (
@@ -35,6 +36,7 @@ export default function Home() {
 					<Factions factions={factionList} />
 					<Features features={featureList} />
 					<History items={historyList} />
+					<Connect serverIp="84.200.229.44:27020" />
 				</div>
 			</main>
 		</>
