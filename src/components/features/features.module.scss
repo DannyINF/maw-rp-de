@@ -7,7 +7,7 @@
 		font-size: var(--font-size-headline);
 		text-align: center;
 		margin-bottom: var(--spacing-xlarge);
-		background-color: var(--accent-color-primary);
+		background-color: var(--accent-color-secondary);
 		padding: var(--spacing-medium) 0;
 	}
 
@@ -27,6 +27,13 @@
 			padding: 0;
 			gap: 0;
 			min-height: unset;
+		}
+
+		//tablet
+		@media (min-width: 769px) and (max-width: 1200px) {
+			gap: 1rem;
+			margin-bottom: var(--spacing-small);
+			padding: var(--spacing-medium) calc(var(--spacing-content) * 0.6);
 		}
 
 		&:nth-child(even) {
