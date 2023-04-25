@@ -13,7 +13,6 @@ import getConfig from 'next/config';
 import dynamic from 'next/dynamic';
 import Impressum from '@/components/impressum/impressum';
 import { ModalProvider } from '@/context/modalContext';
-import { Analytics } from '@vercel/analytics/react';
 
 const Login = dynamic(
 	() => import('@/components/login/login').then(mod => mod.Login),
@@ -109,7 +108,6 @@ export default function Home() {
 					)}
 					<Impressum />
 				</ModalProvider>
-				<Analytics />
 			</main>
 		</>
 	);
