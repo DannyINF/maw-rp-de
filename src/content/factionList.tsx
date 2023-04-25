@@ -64,7 +64,7 @@ export const factionList: Faction[] = [
 		description:
 			'Orks sind ein brutales und kriegerisches Volk in Westernis, bekannt für ihre rohe Gewalt, Schrecklichkeit und bedingungslose Loyalität gegenüber ihren dunklen Herren.',
 		leader: {
-			name: 'Hexenkönig von Angmar',
+			name: 'Hexenmeister von Angmar',
 		},
 		specialRanks: [
 			{
