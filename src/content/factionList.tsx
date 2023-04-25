@@ -41,7 +41,7 @@ export const factionList: Faction[] = [
 		description:
 			'Zwerge sind ein Volk in Westernis, bekannt für ihre große Stärke, Hartnäckigkeit und meisterlichen Fähigkeiten im Handwerk, Bergbau und Schmieden.',
 		leader: {
-			name: 'König Durin IV',
+			name: 'König Durin VI.',
 		},
 		specialRanks: [
 			{
