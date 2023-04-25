@@ -30,12 +30,12 @@ export default function Home() {
 		<>
 			<Head>
 				<title>
-					Mythen aus Westernis Rollenspiel - Herr der Ringe Garry's
-					Mod
+					Herr der Ringe Rollenspiel Garrys Mod Server | Roleplay
+					Server
 				</title>
 				<meta
 					name="description"
-					content="Tritt noch heute dem Mythen aus Westernis Rollenspiel-Server bei und lerne als Mensch, Zwerg oder Ork eine neue Welt kennen!"
+					content="Tritt noch heute dem Herr der Ringe Rollenspiel Garrys Mod Server bei und lerne als Mensch, Zwerg oder Ork eine neue Fantasy Rollenspiel Welt kennen!"
 				/>
 				<meta
 					name="viewport"
@@ -46,11 +46,11 @@ export default function Home() {
 				<meta property="og:type" content="website" />
 				<meta
 					property="og:title"
-					content="Mythen aus Westernis Rollenspiel - Herr der Ringe Garry's Mod"
+					content="Herr der Ringe Rollenspiel Garrys Mod Server | Roleplay Server"
 				/>
 				<meta
 					property="og:description"
-					content="Tritt noch heute dem Mythen aus Westernis Rollenspiel-Server bei und lerne als Mensch, Zwerg oder Ork eine neue Welt kennen!"
+					content="Tritt noch heute dem Herr der Ringe Rollenspiel Garrys Mod Server bei und lerne als Mensch, Zwerg oder Ork eine neue Fantasy Rollenspiel Welt kennen!"
 				/>
 				<meta property="og:url" content="https://www.maw-rp.de/" />
 				<meta
@@ -79,7 +79,7 @@ export default function Home() {
 				<meta name="googlebot" content="index, follow" />
 				<meta
 					name="keywords"
-					content="Mythen aus Westernis, Rollenspiel, Garry's Mod, RP Server, Mensch, Zwerg, Ork, Fantasy, Gaming, GMod, Community, Herr der Ringe, HdR, Rollenspiel-Erfahrung, Rollenspiel-Abenteuer, Online-Gaming, Spiele, Server, deutsche Rollenspiel-Community, Garry's Mod Server"
+					content="Mythen aus Westernis, HDR RP, Herr der Ringe RP, Mythen aus Westernis RP, GMOD HDR RP, Garrys Mod Herr der Ringe, Herr der Ringe Rollenspiel, herr der ringe-online, gaming communities, gta rp, spielen im mittelalter, roleplay server, rollenspiel pc kostenlos, garrys mod server, herr der ringe mod, modded games, fantasy rollenspiel"
 				/>
 				<script
 					async
