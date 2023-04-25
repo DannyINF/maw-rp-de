@@ -18,7 +18,7 @@ export const historyList: HistoryItem[] = [
 		title: 'Konzeptionierung',
 		icon: <FaPencilAlt role="img" aria-label="Pencil" />,
 		content:
-			'Die Idee für den Herr der Ringe Rollenspiel-Server wird geboren. Die Serverleiter beginnen mit der Planung und der Konzeptionierung des Servers und der Systeme.',
+			'Die Idee für den Herr der Ringe Rollenspiel Garrys Mod Server wird geboren. Die Serverleiter beginnen mit der Planung und der Konzeptionierung des Roleplay Server und der Systeme.',
 	},
 	{
 		key: 2,
@@ -26,7 +26,7 @@ export const historyList: HistoryItem[] = [
 		title: 'Entwicklung beginnt',
 		icon: <FaCode role="img" aria-label="Code" />,
 		content:
-			"Mekphen startet als Entwickler die Umsetzung der geplanten Features und die Erstellung des Garry's Mod Server. Dabei entstehen die ersten Bausteine wie Inventar-System und Crafting-System.",
+			'Mekphen startet als Entwickler die Umsetzung der geplanten Features und die Erstellung des Fantasy Rollenspiel. Dabei entstehen die ersten Bausteine wie Inventar-System und Crafting-System.',
 	},
 	{
 		key: 3,
@@ -42,7 +42,7 @@ export const historyList: HistoryItem[] = [
 		title: 'Offizieller Release',
 		icon: <BsFillRocketTakeoffFill role="img" aria-label="Space Shuttle" />,
 		content:
-			'Der Herr der Ringe Rollenspiel-Server wird offiziell gestartet. Spieler können sich registrieren und das Spiel erleben.',
+			'Der Herr der Ringe Rollenspiel-Server wird offiziell gestartet. Spieler können sich registrieren und die Herr der Ringe Mod Erfahrung erleben.',
 	},
 	{
 		key: 5,
@@ -82,7 +82,7 @@ export const historyList: HistoryItem[] = [
 		title: 'Alchemie System',
 		icon: <GiFireBottle role="img" aria-label="Fire Bottle" />,
 		content:
-			'Durch das neue Alchemie System werden die Kräuter vervielfacht und die Alchemisten haben die Möglichkeit, ihr Können mit neuem und einzigartigem Gameplay auf die Probe zu stellen. Neben den neuen Kräutern gibt es auch viele neue Tränke, welche in der richtigen Reihenfolge gebraut werden müssen.',
+			'Durch das neue Alchemie System werden die Kräuter vervielfacht und die Alchemisten haben die Möglichkeit, ihr Können mit neuem und einzigartigem Fantasy Rollenspiel auf die Probe zu stellen. Neben den neuen Kräutern gibt es auch viele neue Tränke, welche in der richtigen Reihenfolge gebraut werden müssen.',
 	},
 	{
 		key: 10,
