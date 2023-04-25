@@ -8,6 +8,8 @@
     "start": "next start"
   },
   "dependencies": {
+    "@vercel/analytics": "^1.0.0",
+    "analytics": "github:vercel/analytics",
     "bcryptjs": "^2.4.3",
     "focus-trap-react": "^10.1.1",
     "next": "13.3.0",
