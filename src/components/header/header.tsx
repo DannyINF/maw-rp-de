@@ -3,6 +3,7 @@
 import React from 'react';
 import styles from './header.module.scss';
 import Image from 'next/image';
+import { trackConnectionClick } from '@/lib/tracking';
 
 const Header = () => {
 	return (
@@ -63,6 +64,7 @@ const Header = () => {
 							href="steam://connect/84.200.229.44:27020"
 							target="_blank"
 							className={styles.linkMarked}
+							onClick={trackConnectionClick}
 						>
 							Beitreten
 						</a>
