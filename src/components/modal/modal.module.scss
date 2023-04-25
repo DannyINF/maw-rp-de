@@ -26,6 +26,11 @@
 	min-width: 400px;
 	max-height: 80%;
 	overflow-y: auto;
+
+	@media (max-width: 768px) {
+		min-width: 275px;
+		max-width: 80%;
+	}
 }
 
 .header {
