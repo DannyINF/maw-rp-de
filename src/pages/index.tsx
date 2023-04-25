@@ -82,6 +82,12 @@ export default function Home() {
 					name="keywords"
 					content="Mythen aus Westernis, Rollenspiel, Garry's Mod, RP Server, Mensch, Zwerg, Ork, Fantasy, Gaming, GMod, Community, Herr der Ringe, HdR, Rollenspiel-Erfahrung, Rollenspiel-Abenteuer, Online-Gaming, Spiele, Server, deutsche Rollenspiel-Community, Garry's Mod Server"
 				/>
+				<script
+					async
+					defer
+					data-domain="maw-rp.de"
+					src="https://plausible.io/js/script.js"
+				/>
 			</Head>
 			<main>
 				<ModalProvider>
