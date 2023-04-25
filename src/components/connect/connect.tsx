@@ -1,6 +1,7 @@
 // components/ConnectSection.tsx
 import React from 'react';
 import styles from './connect.module.scss';
+import { trackConnectionClick } from '@/lib/tracking';
 
 interface ConnectSectionProps {
 	serverIp: string;
@@ -23,12 +24,13 @@ const Connect: React.FC<ConnectSectionProps> = ({ serverIp }) => {
 					className={styles.button}
 					href="steam://connect/84.200.229.44:27020"
 					target="_blank"
+					onClick={trackConnectionClick}
 				>
 					Verbinden
 				</a>
 				<a
 					className={styles.button}
-					href="steam://connect/84.200.229.44:27020"
+					href="https://forum.mythenauswesternis.de/"
 					target="_blank"
 				>
 					Forum
