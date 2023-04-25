@@ -26,7 +26,7 @@ export const historyList: HistoryItem[] = [
 		title: 'Entwicklung beginnt',
 		icon: <FaCode role="img" aria-label="Code" />,
 		content:
-			'Mekphen startet als Entwickler die Umsetzung der geplanten Features und die Erstellung des Spielservers. Dabei entstehen die ersten Bausteine wie Inventar-System und Crafting-System.',
+			"Mekphen startet als Entwickler die Umsetzung der geplanten Features und die Erstellung des Garry's Mod Server. Dabei entstehen die ersten Bausteine wie Inventar-System und Crafting-System.",
 	},
 	{
 		key: 3,

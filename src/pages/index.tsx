@@ -30,8 +30,8 @@ export default function Home() {
 		<>
 			<Head>
 				<title>
-					Mythen aus Westernis RP - Deine einzigartige Rollenspiel
-					Erfahrung in Garry's Mod
+					Mythen aus Westernis Rollenspiel - Herr der Ringe Garry's
+					Mod
 				</title>
 				<meta
 					name="description"
@@ -46,7 +46,7 @@ export default function Home() {
 				<meta property="og:type" content="website" />
 				<meta
 					property="og:title"
-					content="Mythen aus Westernis RP - Dein Rollenspiel in Garry's Mod"
+					content="Mythen aus Westernis Rollenspiel - Herr der Ringe Garry's Mod"
 				/>
 				<meta
 					property="og:description"
@@ -61,7 +61,7 @@ export default function Home() {
 				<meta name="twitter:card" content="summary_large_image" />
 				<meta
 					name="twitter:title"
-					content="Mythen aus Westernis RP - Dein Rollenspiel in Garry's Mod"
+					content="Mythen aus Westernis Rollenspiel - Herr der Ringe Garry's Mod"
 				/>
 				<meta
 					name="twitter:description"
