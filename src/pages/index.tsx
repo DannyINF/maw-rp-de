@@ -35,7 +35,7 @@ export default function Home() {
 				</title>
 				<meta
 					name="description"
-					content="Tritt noch heute dem Herr der Ringe Rollenspiel Garrys Mid Server bei und lerne als Mensch, Zwerg oder Ork eine neue Fantasy Rollenspiel Welt kennen!"
+					content="Tritt noch heute dem Herr der Ringe Rollenspiel Garrys Mod Server bei und lerne als Mensch, Zwerg oder Ork eine neue Fantasy Rollenspiel Welt kennen!"
 				/>
 				<meta
 					name="viewport"
@@ -50,7 +50,7 @@ export default function Home() {
 				/>
 				<meta
 					property="og:description"
-					content="Tritt noch heute dem Herr der Ringe Rollenspiel Garrys Mid Server bei und lerne als Mensch, Zwerg oder Ork eine neue Fantasy Rollenspiel Welt kennen!"
+					content="Tritt noch heute dem Herr der Ringe Rollenspiel Garrys Mod Server bei und lerne als Mensch, Zwerg oder Ork eine neue Fantasy Rollenspiel Welt kennen!"
 				/>
 				<meta property="og:url" content="https://www.maw-rp.de/" />
 				<meta
