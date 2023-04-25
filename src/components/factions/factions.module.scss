@@ -3,6 +3,7 @@
 	background-color: var(--bg-dark);
 	color: var(--text-light);
 	padding-top: var(--spacing-xxlarge);
+	overflow-x: hidden;
 
 	> h2 {
 		font-family: var(--font-family);
