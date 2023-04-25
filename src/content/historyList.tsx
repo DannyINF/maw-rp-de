@@ -62,7 +62,7 @@ export const historyList: HistoryItem[] = [
 	},
 	{
 		key: 7,
-		date: '02. Januar 2022',
+		date: '02. Januar 2023',
 		title: 'Eventwoche',
 		icon: <GiFireworkRocket role="img" aria-label="Firework Rocket" />,
 		content:
@@ -70,7 +70,7 @@ export const historyList: HistoryItem[] = [
 	},
 	{
 		key: 8,
-		date: '14. März 2022',
+		date: '14. März 2023',
 		title: 'Krieg von Westernis',
 		icon: <RiSwordLine role="img" aria-label="Swords" />,
 		content:
@@ -78,7 +78,7 @@ export const historyList: HistoryItem[] = [
 	},
 	{
 		key: 9,
-		date: '25. März 2022',
+		date: '25. März 2023',
 		title: 'Alchemie System',
 		icon: <GiFireBottle role="img" aria-label="Fire Bottle" />,
 		content:
@@ -86,7 +86,7 @@ export const historyList: HistoryItem[] = [
 	},
 	{
 		key: 10,
-		date: '20. April 2022',
+		date: '20. April 2023',
 		title: 'Arost Bündnis',
 		icon: <FaHandshake role="img" aria-label="Handshake" />,
 		content:
