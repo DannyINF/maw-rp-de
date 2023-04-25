@@ -30,8 +30,7 @@ export default function Home() {
 		<>
 			<Head>
 				<title>
-					Herr der Ringe Rollenspiel Garrys Mod Server | Roleplay
-					Server
+					Herr der Ringe RP Garrys Mod Server | Fantasy Rollenspiel
 				</title>
 				<meta
 					name="description"
