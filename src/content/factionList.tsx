@@ -8,7 +8,7 @@ import {
 	GiPocketBow,
 	GiPotionBall,
 	GiRuneStone,
-	GiStonePath,
+	GiHerbsBundle,
 } from 'react-icons/gi';
 
 export const factionList: Faction[] = [
@@ -22,8 +22,8 @@ export const factionList: Faction[] = [
 		},
 		specialRanks: [
 			{
-				icon: <GiStonePath aria-label="Stone Path" role="img" />,
-				name: 'Architekt',
+				icon: <GiHerbsBundle aria-label="Herbs Bundle" role="img" />,
+				name: 'Kräutersammler',
 			},
 			{
 				icon: <GiPocketBow aria-label="Bow" role="img" />,
