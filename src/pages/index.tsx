@@ -33,6 +33,10 @@ export default function Home() {
 					Herr der Ringe RP Garrys Mod Server | Fantasy Rollenspiel
 				</title>
 				<meta
+					name="title"
+					content="Herr der Ringe RP - Garrys Mod Server | GMOD Roleplay"
+				/>
+				<meta
 					name="description"
 					content="Tritt noch heute dem Herr der Ringe Rollenspiel Garrys Mod Server bei und lerne als Mensch, Zwerg oder Ork eine neue Fantasy Rollenspiel Welt kennen!"
 				/>
