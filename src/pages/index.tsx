@@ -11,6 +11,7 @@ import { historyList } from '@/content/historyList';
 import Connect from '@/components/connect/connect';
 import getConfig from 'next/config';
 import dynamic from 'next/dynamic';
+import Script from 'next/script';
 import Impressum from '@/components/impressum/impressum';
 import { ModalProvider } from '@/context/modalContext';
 
@@ -111,11 +112,11 @@ export default function Home() {
 					)}
 					<Impressum />
 				</ModalProvider>
-				<script
+				<Script
 					async
 					src="https://www.googletagmanager.com/gtag/js?id=AW-11244277110"
-				></script>
-				<script>
+				></Script>
+				<Script>
 					{`
 						window.dataLayer = window.dataLayer || [];
 				  		function gtag(){ dataLayer.push(arguments); }
@@ -123,7 +124,7 @@ export default function Home() {
 									
 				  		gtag('config', 'AW-11244277110');
 					`}
-				</script>
+				</Script>
 			</main>
 		</>
 	);
