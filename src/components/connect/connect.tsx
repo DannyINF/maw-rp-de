@@ -1,13 +1,20 @@
 // components/ConnectSection.tsx
 import React from 'react';
 import styles from './connect.module.scss';
-import { trackConnectionClick } from '@/lib/tracking';
+import { useModal } from '../../context/modalContext';
+import ConnectDetails from '../connectdetails/connectdetails';
 
 interface ConnectSectionProps {
 	serverIp: string;
 }
 
 const Connect: React.FC<ConnectSectionProps> = ({ serverIp }) => {
+	const { openModal } = useModal();
+
+	const openConnectModal = () => {
+		openModal('Achtung!', <ConnectDetails />);
+	};
+
 	return (
 		<section
 			id="beitreten"
@@ -20,14 +27,9 @@ const Connect: React.FC<ConnectSectionProps> = ({ serverIp }) => {
 			</h2>
 			<p className={styles.serverIp}>Server-IP: {serverIp}</p>
 			<div className={styles.buttons}>
-				<a
-					className={styles.button}
-					href="steam://connect/84.200.229.44:27020"
-					target="_blank"
-					onClick={trackConnectionClick}
-				>
+				<button className={styles.button} onClick={openConnectModal}>
 					Verbinden
-				</a>
+				</button>
 				<a
 					className={styles.button}
 					href="https://forum.mythenauswesternis.de/"
