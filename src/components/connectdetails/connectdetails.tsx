@@ -9,45 +9,42 @@ const ConnectDetails: React.FC = () => {
 	return (
 		<div className={styles.connectDetailsDiv}>
 			<h3>Du benötigst Garry's Mod um am Rollenspiel teilzunehmen.</h3>
-			<div className={styles.gmodInfoDiv}>
-				<div className={styles.gmodInfoImage}>
-					<Image
-						src="/assets/images/logo-gmod.png"
-						alt="garry's mod"
-						width={100}
-						height={100}
-					/>
-				</div>
-				<div className={styles.gmodInfoDivContent}>
-					<p>
-						<a
-							href="https://store.steampowered.com/app/4000/Garrys_Mod/"
-							rel="noopener noreferrer nofollow"
-							target="_blank"
-						>
+			<a
+				href="https://store.steampowered.com/app/4000/Garrys_Mod/"
+				rel="noopener noreferrer nofollow"
+				target="_blank"
+			>
+				<div className={styles.gmodInfoDiv}>
+					<div className={styles.gmodInfoImage}>
+						<Image
+							src="/assets/images/logo-gmod.png"
+							alt="garry's mod"
+							width={100}
+							height={100}
+						/>
+					</div>
+					<div className={styles.gmodInfoDivContent}>
+						<p>
 							Garry's Mod ist ein Sandbox Spiel mit unzähligen
 							Erweiterungsmöglichkeiten und Modifikationen.
 							<br /> Dadurch haben wir ein nie dagewesenes
 							Rollenspiel in der Welt von Westernis geschaffen.
-						</a>
-					</p>
-					<a
-						href="https://store.steampowered.com/app/4000/Garrys_Mod/"
-						rel="noopener noreferrer nofollow"
-						target="_blank"
-					>
+						</p>
 						<FiExternalLink
 							role="img"
 							aria-label="garry's mod kaufen"
 						/>
-					</a>
+					</div>
 				</div>
-			</div>
-			<h4>
-				Wenn du Garry's Mod installiert hast, wirst du mit einem Klick{' '}
-				auf Beitreten
+			</a>
+			<p>
+				<b>Wenn du Garry's Mod installiert hast</b>, wirst du mit einem
+				Klick auf Beitreten
 				<br /> automatisch mit dem Server verbunden.
-			</h4>
+				<br />
+				Mit dem Handy kannst du dich <b>leider nicht</b> mit dem
+				Rollenspiel Server verbinden.
+			</p>
 
 			<div className={styles.gmodButtons}>
 				<a
