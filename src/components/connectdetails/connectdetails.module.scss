@@ -1,0 +1,102 @@
+.connectDetailsDiv {
+	> a {
+		text-decoration: none;
+		color: white;
+	}
+	.gmodInfoDiv {
+		display: flex;
+		gap: 0.5rem;
+		flex-direction: column;
+		width: fit-content;
+		max-width: 600px;
+		align-items: center;
+		padding: var(--spacing-small) var(--spacing-medium);
+		background-color: var(--bg-dark);
+		border: 3px solid var(--accent-color-secondary);
+
+		@media (min-width: 768px) {
+			flex-direction: row;
+			flex-wrap: nowrap;
+			gap: 2rem;
+		}
+
+		.gmodInfoImage {
+			flex-basis: 12%;
+
+			img {
+				width: 100%;
+				height: auto;
+			}
+		}
+
+		.gmodInfoDivContent {
+			flex-basis: 85%;
+			position: relative;
+			padding-right: 30px;
+
+			svg {
+				width: 18px;
+				height: 18px;
+				position: absolute;
+				top: 8px;
+				right: 8px;
+			}
+		}
+	}
+
+	.gmodButtons {
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+		align-items: center;
+		gap: 2rem;
+		margin-top: var(--spacing-small);
+
+		@media (min-width: 768px) {
+			flex-direction: row;
+			flex-wrap: nowrap;
+			margin-top: var(--spacing-large);
+		}
+
+		.button {
+			background-color: var(--accent-color-primary);
+			color: var(--text-light);
+			font-size: var(--font-size-large-text);
+			font-weight: var(--font-weight-bold);
+			padding: var(--spacing-small) var(--spacing-medium);
+			border: none;
+			cursor: pointer;
+			text-decoration: none;
+			box-shadow: 3px 3px 3px 1px var(--bg-black-transparent);
+			width: 140px;
+			text-align: center;
+			display: none;
+
+			@media (min-width: 1024px) {
+				display: block;
+			}
+
+			&:hover {
+				background-color: var(--accent-color-primary-highlight);
+			}
+		}
+
+		.secondaryButton {
+			background-color: var(--accent-color-secondary);
+			color: var(--text-light);
+			font-size: var(--font-size-large-text);
+			font-weight: var(--font-weight-bold);
+			padding: var(--spacing-small) var(--spacing-medium);
+			border: none;
+			cursor: pointer;
+			text-decoration: none;
+			box-shadow: 3px 3px 3px 1px var(--bg-black-transparent);
+			width: 140px;
+			text-align: center;
+
+			&:hover {
+				background-color: var(--accent-color-secondary-highlight);
+			}
+		}
+	}
+}

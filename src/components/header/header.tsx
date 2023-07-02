@@ -3,9 +3,21 @@
 import React from 'react';
 import styles from './header.module.scss';
 import Image from 'next/image';
-import { trackConnectionClick } from '@/lib/tracking';
+import {
+	trackConnectionClick,
+	trackForumClick,
+	trackShopClick,
+} from '@/lib/tracking';
+import { useModal } from '../../context/modalContext';
+import ConnectDetails from '../connectdetails/connectdetails';
 
 const Header = () => {
+	const { openModal } = useModal();
+
+	const openConnectModal = () => {
+		openModal('Achtung!', <ConnectDetails />);
+	};
+
 	return (
 		<header id="header" className={styles.header}>
 			<div className={styles.logo}>
@@ -46,6 +58,7 @@ const Header = () => {
 							href="https://hdr-rp.vyhub.app/shop"
 							target="_blank"
 							className={styles.link}
+							onClick={trackShopClick}
 						>
 							Shop
 						</a>
@@ -55,19 +68,18 @@ const Header = () => {
 							href="https://forum.mythenauswesternis.de/"
 							target="_blank"
 							className={styles.link}
+							onClick={trackForumClick}
 						>
 							Forum
 						</a>
 					</li>
 					<li>
-						<a
-							href="steam://connect/84.200.229.44:27020"
-							target="_blank"
+						<button
 							className={styles.linkMarked}
-							onClick={trackConnectionClick}
+							onClick={openConnectModal}
 						>
 							Beitreten
-						</a>
+						</button>
 					</li>
 				</ul>
 			</nav>
