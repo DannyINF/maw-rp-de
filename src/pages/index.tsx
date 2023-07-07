@@ -106,7 +106,7 @@ export default function Home() {
 								<Factions factions={factionList} />
 								<Features features={featureList} />
 								<History items={historyList} />
-								<Connect serverIp="84.200.229.44:27020" />
+								<Connect serverIp="84.200.229.2:27020" />
 							</div>
 						</>
 					)}
