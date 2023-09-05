@@ -49,7 +49,7 @@ const ConnectDetails: React.FC = () => {
 			<div className={styles.gmodButtons}>
 				<a
 					className={styles.button}
-					href="steam://connect/194.69.160.47:27035"
+					href="steam://connect/84.200.229.2:27020"
 					target="_blank"
 					onClick={trackConnectionClick}
 				>
