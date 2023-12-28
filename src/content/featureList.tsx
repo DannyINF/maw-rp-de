@@ -115,7 +115,7 @@ export const featureList: Feature[] = [
 		name: 'Quests',
 		description:
 			'Du hast nichts zu tun oder es sind zu späteren Zeiten wenige Spieler auf dem Server? Kein Problem, hole dir spannende und ertragreiche Aufgaben bei Quest NPCs ab.',
-		image: '/assets/images/features/crafting.webp',
+		image: '/assets/images/features/quest.png',
 		highlights: [
 			{
 				name: 'Story',
