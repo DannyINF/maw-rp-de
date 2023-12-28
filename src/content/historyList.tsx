@@ -81,7 +81,7 @@ export const historyList: HistoryItem[] = [
 		key: 9,
 		date: '18. August 2023',
 		title: 'Großes 2.0 Update',
-		icon: <FaRegMap role="img" aria-label="Map" />,
+		icon: <FaMap role="img" aria-label="Map" />,
 		content:
 			'Nach einigen Problemen in der Wirtschaft, wurde mit dem großen 2.0 Update ein Wirtschafts Reset durchgeführt. Zudem wurde ein neues Eroberungssystem und eine neue eigens angefertigte Map eingeführt. Allerdings hatte der Server längere Zeit Probleme mit DDos Attacken.',
 	},
