@@ -5,12 +5,12 @@ import {
 	FaBug,
 	FaPencilAlt,
 	FaHandshake,
+	FaMap,
 } from 'react-icons/fa';
 import { BsFillRocketTakeoffFill } from 'react-icons/bs';
 import { TbChristmasTree } from 'react-icons/tb';
 import { GiFireworkRocket, GiFireBottle, GiSmokingVolcano } from 'react-icons/gi';
 import { RiSwordLine } from 'react-icons/ri';
-import { FaRegMap } from 'react-icons/fa6';
 
 export const historyList: HistoryItem[] = [
 	{
