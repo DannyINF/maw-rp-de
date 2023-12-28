@@ -108,4 +108,29 @@ export const featureList: Feature[] = [
 			},
 		],
 	},
+	{
+		name: 'Quests',
+		description:
+			'Du hast nichts zu tun oder es sind zu späteren Zeiten wenige Spieler auf dem Server? Kein Problem, hole dir spannende und ertragreiche Aufgaben bei Quest NPCs ab.',
+		image: '/assets/images/features/crafting.webp',
+		highlights: [
+			{
+				name: 'Story',
+				icon: <GiAnvilImpact role="img" aria-label="Anvil Impact" />,
+			},
+			{
+				name: 'Farming',
+				icon: <GiPotionBall role="img" aria-label="Potion Ball" />,
+			},
+			{
+				name: 'Nebenquests',
+				icon: (
+					<BsFillPersonCheckFill
+						role="img"
+						aria-label="Person Check"
+					/>
+				),
+			},
+		],
+	},
 ];

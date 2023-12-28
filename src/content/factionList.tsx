@@ -13,21 +13,21 @@ import {
 
 export const factionList: Faction[] = [
 	{
-		name: 'Menschen',
+		name: 'Gondor',
 		image: '/assets/images/factions/human.webp',
 		description:
 			'Die Menschen von Gondor sind eine stolze und edle Zivilisation in Westernis. Als eines der bedeutendsten menschlichen Königreiche ist Gondor bekannt für seine mutigen Krieger, weisen Herrscher und prachtvollen Bauten.',
 		leader: {
-			name: 'König Calimehtar',
+			name: 'Truchsess Ecthelion',
 		},
 		specialRanks: [
 			{
 				icon: <GiHerbsBundle aria-label="Herbs Bundle" role="img" />,
-				name: 'Kräutersammler',
+				name: 'Gastwirt',
 			},
 			{
 				icon: <GiPocketBow aria-label="Bow" role="img" />,
-				name: 'Mensch aus Westernis',
+				name: 'Dunedain',
 			},
 			{
 				icon: <GiPotionBall aria-label="Potion" role="img" />,
@@ -36,12 +36,12 @@ export const factionList: Faction[] = [
 		],
 	},
 	{
-		name: 'Zwerge',
+		name: 'Erebor',
 		image: '/assets/images/factions/dwarf.webp',
 		description:
 			'Zwerge sind ein Volk in Westernis, bekannt für ihre große Stärke, Hartnäckigkeit und meisterlichen Fähigkeiten im Handwerk, Bergbau und Schmieden.',
 		leader: {
-			name: 'König Durin VI.',
+			name: 'Dain Eisenfuß',
 		},
 		specialRanks: [
 			{
@@ -54,30 +54,53 @@ export const factionList: Faction[] = [
 			},
 			{
 				icon: <GiAnvilImpact aria-label="Anvil" role="img" />,
-				name: 'Legendärer Schmied',
+				name: 'Dains Schmied',
 			},
 		],
 	},
 	{
-		name: 'Orks',
+		name: 'Mordor',
 		image: '/assets/images/factions/orc.webp',
 		description:
 			'Orks sind ein brutales und kriegerisches Volk in Westernis, bekannt für ihre rohe Gewalt, Schrecklichkeit und bedingungslose Loyalität gegenüber ihren dunklen Herren.',
 		leader: {
-			name: 'Hexenmeister von Angmar',
+			name: 'Saurons Mund',
 		},
 		specialRanks: [
 			{
 				icon: <GiCrocSword aria-label="Sword" role="img" />,
-				name: 'Berserker',
+				name: 'Uruk-hai',
 			},
 			{
 				icon: <GiMagicGate aria-label="Magic Gate" role="img" />,
-				name: 'Hexer',
+				name: 'Nazgûl',
 			},
 			{
 				icon: <GiDwarfHelmet aria-label="Helmet" role="img" />,
-				name: 'Dunkler Numenorer',
+				name: 'Trolle',
+			},
+		],
+	},
+	{
+		name: 'Imladris',
+		image: '/assets/images/factions/orc.webp',
+		description:
+			'Die Elben von Bruchtal sind bekannt für ihre geschickte Handwerkskunst und ihren edlen Umgang mit Schwert und Bogen. Sie handeln stets gegen die dunklen Mächte.',
+		leader: {
+			name: 'Herr Elrond',
+		},
+		specialRanks: [
+			{
+				icon: <GiCrocSword aria-label="Sword" role="img" />,
+				name: 'Noldorelben',
+			},
+			{
+				icon: <GiMagicGate aria-label="Magic Gate" role="img" />,
+				name: 'Hobbits',
+			},
+			{
+				icon: <GiDwarfHelmet aria-label="Helmet" role="img" />,
+				name: 'Istar',
 			},
 		],
 	},
