@@ -4,6 +4,7 @@ import {
 	GiBrain,
 	GiPotionBall,
 	GiIceSpear,
+	GiHillConquest,
 } from 'react-icons/gi';
 import { RiTreasureMapLine } from 'react-icons/ri';
 import {
@@ -14,6 +15,8 @@ import {
 } from 'react-icons/tb';
 import { BsFillPersonCheckFill, BsShieldFillCheck } from 'react-icons/bs';
 import { HiUserGroup } from 'react-icons/hi';
+import { MdOutlineHistoryEdu } from 'react-icons/md';
+import { LuStar } from "react-icons/lu";
 
 export const featureList: Feature[] = [
 	{
@@ -116,18 +119,18 @@ export const featureList: Feature[] = [
 		highlights: [
 			{
 				name: 'Story',
-				icon: <GiAnvilImpact role="img" aria-label="Anvil Impact" />,
+				icon: <MdOutlineHistoryEdu role="img" aria-label="Quill" />,
 			},
 			{
 				name: 'Farming',
-				icon: <GiPotionBall role="img" aria-label="Potion Ball" />,
+				icon: <LuStar role="img" aria-label="Star" />,
 			},
 			{
 				name: 'Nebenquests',
 				icon: (
-					<BsFillPersonCheckFill
+					<GiHillConquest 
 						role="img"
-						aria-label="Person Check"
+						aria-label="Hill"
 					/>
 				),
 			},

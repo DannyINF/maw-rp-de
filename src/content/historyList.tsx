@@ -8,8 +8,9 @@ import {
 } from 'react-icons/fa';
 import { BsFillRocketTakeoffFill } from 'react-icons/bs';
 import { TbChristmasTree } from 'react-icons/tb';
-import { GiFireworkRocket, GiFireBottle } from 'react-icons/gi';
+import { GiFireworkRocket, GiFireBottle, GiSmokingVolcano } from 'react-icons/gi';
 import { RiSwordLine } from 'react-icons/ri';
+import { FaRegMap } from "react-icons/fa6";
 
 export const historyList: HistoryItem[] = [
 	{
@@ -80,7 +81,7 @@ export const historyList: HistoryItem[] = [
 		key: 9,
 		date: '18. August 2023',
 		title: 'Großes 2.0 Update',
-		icon: <FaHandshake role="img" aria-label="Handshake" />,
+		icon: <FaRegMap role="img" aria-label="Map" />,
 		content:
 			'Nach einigen Problemen in der Wirtschaft, wurde mit dem großen 2.0 Update ein Wirtschafts Reset durchgeführt. Zudem wurde ein neues Eroberungssystem und eine neue eigens angefertigte Map eingeführt. Allerdings hatte der Server längere Zeit Probleme mit DDos Attacken.',
 	},
@@ -88,7 +89,7 @@ export const historyList: HistoryItem[] = [
 		key: 10,
 		date: '09. Dezember 2023',
 		title: 'MaW:RP 3.0: Saurons Aufstieg!',
-		icon: <FaHandshake role="img" aria-label="Handshake" />,
+		icon: <GiSmokingVolcano role="img" aria-label="Smoking Volcano" />,
 		content:
 			'Das größte Update bisher kam mit neuen Fraktionen, wie Mordor statt Angmar und Erebor statt Moria. Zudem wurde Imladris eingeführt. Die Map hat eine riesige Mordor Erweiterung erhalten. Der Server erholt sich von den Attacken und läuft wieder besser.',
 	},

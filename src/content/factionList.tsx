@@ -9,7 +9,10 @@ import {
 	GiPotionBall,
 	GiRuneStone,
 	GiHerbsBundle,
+	GiElfHelmet,
+	GiHobbitDoor,
 } from 'react-icons/gi';
+import { FaHatWizard } from 'react-icons/fa';
 
 export const factionList: Faction[] = [
 	{
@@ -91,15 +94,15 @@ export const factionList: Faction[] = [
 		},
 		specialRanks: [
 			{
-				icon: <GiCrocSword aria-label="Sword" role="img" />,
+				icon: <GiElfHelmet aria-label="Elf Helmet" role="img" />,
 				name: 'Noldorelben',
 			},
 			{
-				icon: <GiMagicGate aria-label="Magic Gate" role="img" />,
+				icon: <GiHobbitDoor aria-label="Hobbit Door" role="img" />,
 				name: 'Hobbits',
 			},
 			{
-				icon: <GiDwarfHelmet aria-label="Helmet" role="img" />,
+				icon: <FaHatWizard aria-label="Wizard Hat" role="img" />,
 				name: 'Istar',
 			},
 		],
