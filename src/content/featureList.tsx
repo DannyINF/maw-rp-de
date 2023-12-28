@@ -16,7 +16,7 @@ import {
 import { BsFillPersonCheckFill, BsShieldFillCheck } from 'react-icons/bs';
 import { HiUserGroup } from 'react-icons/hi';
 import { MdOutlineHistoryEdu } from 'react-icons/md';
-import { FaRegStar } from "react-icons/fa";
+import { FaRegStar } from 'react-icons/fa';
 
 export const featureList: Feature[] = [
 	{
