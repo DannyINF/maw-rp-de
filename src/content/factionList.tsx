@@ -86,7 +86,7 @@ export const factionList: Faction[] = [
 	},
 	{
 		name: 'Imladris',
-		image: '/assets/images/factions/orc.webp',
+		image: '/assets/images/factions/elb.png',
 		description:
 			'Die Elben von Bruchtal sind bekannt für ihre geschickte Handwerkskunst und ihren edlen Umgang mit Schwert und Bogen. Sie handeln stets gegen die dunklen Mächte.',
 		leader: {
