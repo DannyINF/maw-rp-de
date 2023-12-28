@@ -16,7 +16,7 @@ import {
 import { BsFillPersonCheckFill, BsShieldFillCheck } from 'react-icons/bs';
 import { HiUserGroup } from 'react-icons/hi';
 import { MdOutlineHistoryEdu } from 'react-icons/md';
-import { LuStar } from "react-icons/lu";
+import { FaRegStar } from "react-icons/fa";
 
 export const featureList: Feature[] = [
 	{
@@ -123,7 +123,7 @@ export const featureList: Feature[] = [
 			},
 			{
 				name: 'Farming',
-				icon: <LuStar role="img" aria-label="Star" />,
+				icon: <FaRegStar role="img" aria-label="Star" />,
 			},
 			{
 				name: 'Nebenquests',
