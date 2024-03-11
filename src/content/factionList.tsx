@@ -11,6 +11,7 @@ import {
 	GiHerbsBundle,
 	GiElfHelmet,
 	GiHobbitDoor,
+	GiWomanElfFace,
 } from 'react-icons/gi';
 import { FaHatWizard } from 'react-icons/fa';
 
@@ -25,8 +26,8 @@ export const factionList: Faction[] = [
 		},
 		specialRanks: [
 			{
-				icon: <GiHerbsBundle aria-label="Herbs Bundle" role="img" />,
-				name: 'Gastwirt',
+				icon: <GiElfHelmet aria-label="Elf Helmet" role="img" />,
+				name: 'Schwanenritter',
 			},
 			{
 				icon: <GiPocketBow aria-label="Bow" role="img" />,
@@ -38,7 +39,7 @@ export const factionList: Faction[] = [
 			},
 		],
 	},
-	{
+	/*{
 		name: 'Erebor',
 		image: '/assets/images/factions/dwarf.webp',
 		description:
@@ -60,7 +61,7 @@ export const factionList: Faction[] = [
 				name: 'Dains Schmied',
 			},
 		],
-	},
+	},*/
 	{
 		name: 'Mordor',
 		image: '/assets/images/factions/orc.webp',
@@ -94,7 +95,7 @@ export const factionList: Faction[] = [
 		},
 		specialRanks: [
 			{
-				icon: <GiElfHelmet aria-label="Elf Helmet" role="img" />,
+				icon: <GiWomanElfFace aria-label="Woman Elf Face" role="img" />,
 				name: 'Noldorelben',
 			},
 			{

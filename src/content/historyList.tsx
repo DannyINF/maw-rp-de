@@ -11,6 +11,7 @@ import { BsFillRocketTakeoffFill } from 'react-icons/bs';
 import { TbChristmasTree } from 'react-icons/tb';
 import { GiFireworkRocket, GiFireBottle, GiSmokingVolcano } from 'react-icons/gi';
 import { RiSwordLine } from 'react-icons/ri';
+import { MdOutlineGroups } from "react-icons/md";
 
 export const historyList: HistoryItem[] = [
 	{
@@ -92,5 +93,13 @@ export const historyList: HistoryItem[] = [
 		icon: <GiSmokingVolcano role="img" aria-label="Smoking Volcano" />,
 		content:
 			'Das größte Update bisher kam mit neuen Fraktionen, wie Mordor statt Angmar und Erebor statt Moria. Zudem wurde Imladris eingeführt. Die Map hat eine riesige Mordor Erweiterung erhalten. Der Server erholt sich von den Attacken und läuft wieder besser.',
+	},
+	{
+		key: 11,
+		date: '17. März 2024',
+		title: 'MaW:RP 4.0: Bündnis der freien Völker',
+		icon: <MdOutlineGroups role="img" aria-label="Group of People" />,
+		content:
+			'Der Server wird in ein 1vs1-System zwischen Gondor und Mordor aufgegliedert, hierbei wurde Erebor aufgelöst und Zwerge sind nun in Gondor und in Mordor spielbar. Zudem kommen die Söldner in Form von Dunland wieder zurück, welche ihr Unwesen treiben werden. Die Fraktionen werden durch ein neues Team-Feature zudem detaillierter untergliedert und somit der Weg für ein noch besseres Roleplay-Erlebnis geebnet.',
 	},
 ];
