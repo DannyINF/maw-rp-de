@@ -30,8 +30,6 @@ const Impressum: React.FC = () => {
 				</p>
 				<h4>E-Mail-Adresse</h4>
 				<p>forum@mythenauswesternis.de</p>
-				<h4>Telefon</h4>
-				<p>+4915159475480</p>
 				<h4>Umsatzsteuer-Identifikationsnummer</h4>
 				<p>
 					Umsatzsteuer-Identifikationsnummer gemäß § 27a UStG:
