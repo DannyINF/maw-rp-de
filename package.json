@@ -10,6 +10,7 @@
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "focus-trap-react": "^10.1.1",
+    "hdr-landingpage": "file:",
     "next": "13.3.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
